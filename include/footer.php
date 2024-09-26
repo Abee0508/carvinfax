@@ -8,9 +8,9 @@
 			<ul>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About Us</a></li>
-				<li><a href="pricing.php">Pricing</a></li>
+				<li><a href="pricing.php">Packages</a></li>
 				<li><a href="sample-report.php">Sample Report</a></li>
-				<li><a href="">Vehicle History Report</a></li>
+				<li><a href="vehicle-history.php">Vehicle History Report</a></li>
 			</ul>
 		</div>
 		<div class="footerr">

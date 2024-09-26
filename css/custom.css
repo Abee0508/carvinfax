@@ -1,11 +1,25 @@
-}
+
 @charset "utf-8";
 /* CSS Document */
 body, html{
     height: 100%;
 }
+
 body{
     background: #fff;
+}
+
+h1 {
+    font-size: clamp(24px, 4vw, 62px) !important;
+    line-height: clamp(32px, 16vh, 64px) !important;
+}
+h2{
+    font-size: clamp(24px, 4vw, 45px) !important;
+    line-height: clamp(32px, 18vh, 45px) !important;
+}
+h3{
+    font-size: clamp(24px, 4vw, 36px) !important;
+    line-height: clamp(32px, 14vh, 43.2px) !important;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -61,7 +75,7 @@ div#navbarCollapse {
     background: none;
     cursor: pointer;
     outline: none;
-    background-color 0.3s ease;
+    background-color: 0.3s ease;
     border-radius: 15px;
     font-family: Inter;
     font-size: 15px;
@@ -107,14 +121,16 @@ div#navbarCollapse {
 #plateInput button {
     background-color: #FF4723;
     color: white;
-    padding: 14px 30px;
+    padding: 14px 10px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 16px;
+    justify-content: center;
     font-weight: 400;
+    width: 190px;
     line-height: 21.6px;
     text-align: center;
     display: flex;
@@ -132,25 +148,23 @@ header a.navbar-brand {
 }
 
 header .collapse {
-    justify-content: center;
+    justify-content: space-around;
 }
 
 header .navbar-nav li a {
     padding: 0 !important;
     font-family: Inter;
-    font-size: 16px;
+    font-size: clamp(14px, 1vw, 16px);
     font-weight: 500;
     line-height: 18px;
-    letter-spacing: -0.3199999928474426px;
     color: #666666 !important;
 }
 
 header .navbar-nav {
     display: flex;
-    a
-    gap: 0 30px;
     align-items: flex-end;
     gap: 0 36px;
+    margin: auto;
 }
 
 .lang-signup button {
@@ -175,6 +189,7 @@ header .navbar-nav {
     display: flex;
     align-items: center;
     gap: 0 20px;
+    position: relative;
 }
 
 .lang-signup a {
@@ -185,7 +200,6 @@ header .navbar-nav {
     font-size: 15px;
     font-weight: 600;
     line-height: 18px;
-    letter-spacing: -0.3199999928474426px;
     text-align: center;
     color: #FA4A22;
     transition: all 0.5s;
@@ -207,7 +221,6 @@ header .navbar-nav {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
     color: #FF4723;
 }
@@ -233,7 +246,6 @@ header .navbar-nav {
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
 }
 
@@ -254,7 +266,7 @@ header .navbar-nav {
 
 .input-container input::placeholder {
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24.2px;
     text-align: left;
@@ -290,7 +302,6 @@ header .navbar-nav {
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: -0.3199999928474426px;
     color: #666666;
 }
 
@@ -315,7 +326,6 @@ header .navbar-nav {
     font-size: 16px;
     font-weight: 400;
     line-height: 18.2px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
     color: #666666;
     margin: 0 0 0 8px;
@@ -324,7 +334,7 @@ header .navbar-nav {
 
 
 
-.logos .row {display: grid;grid-template-columns: 180px 180px  180px; /* Display 5 columns */gap: 10px; /* Adjust the gap between columns as needed */}
+.logos .row {display: grid;grid-template-columns: 1fr 1fr 1fr; /* Display 5 columns */gap: 10px; /* Adjust the gap between columns as needed */}
 
 .input-container select {
     height: 100%;
@@ -356,6 +366,7 @@ section.what-we-offer .content {
     padding: 32px 26px;
     transition: all 0.4s;
     cursor: pointer;
+    height: 390px;
 }
 
 section.what-we-offer .content ul {
@@ -376,7 +387,6 @@ section.what-we-offer .content ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: -0.3199999928474426px;
     text-align: center;
     color: #FF4723;
 }
@@ -388,7 +398,6 @@ section.what-we-offer .content ul {
     font-weight: 700;
     line-height: 56px;
     text-align: center;
-    padding: 0 12rem;
 }
 
 section.what-we-offer {
@@ -401,7 +410,6 @@ section.what-we-offer .content h4 {
     font-size: 28px;
     font-weight: 600;
     line-height: 30px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
     font-family: "Noto Sans Georgian";
     position: relative;
@@ -461,7 +469,6 @@ section.vehicle-record {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
     color: #FF4723;
 }
@@ -480,18 +487,13 @@ section.vehicle-record {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
-    ,
-    margin: ;
 }
 
 .repeated a {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    line-height: 28px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
     background-color: #8835C3;
     display: inline-flex;
@@ -533,9 +535,7 @@ section.sample-record img {
 
 .trusted .row {
     align-items: center;
-}
-
-section.vehicle-record .album .col-md-12 {
+    justify-content: center;
 }
 
 section.sample-record .row {
@@ -682,7 +682,6 @@ section.dedicated-customers .title p {
     font-size: 18px;
     font-weight: 500;
     line-height: 23.4px;
-    letter-spacing: -0.3199999928474426px;
     text-align: center;
     color: #666666;
 }
@@ -696,7 +695,6 @@ section.dedicated-customers .title h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 43.2px;
-    letter-spacing: -0.3199999928474426px;
     text-align: center;
     color: #000;
 }
@@ -723,7 +721,6 @@ section.dedicated-customers .inner h4 {
     font-weight: 700;
     margin: 0;
     line-height: 31.2px;
-    letter-spacing: -0.3199999928474426px;
     text-align: center;
     color: #000;
 }
@@ -733,7 +730,6 @@ section.dedicated-customers .inner p {
     font-size: 15px;
     font-weight: 400;
     line-height: 19.5px;
-    letter-spacing: -0.3199999928474426px;
     text-align: center;
     color: #666666;
     margin: 0;
@@ -760,7 +756,6 @@ section.dedicated-customers .content {
     font-size: 36px;
     font-weight: 700;
     line-height: 43.2px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
     color: #000;
 }
@@ -770,7 +765,6 @@ section.dedicated-customers .content {
     font-size: 66px;
     font-weight: 700;
     line-height: 79.2px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
     color: #8835C3;
 }
@@ -780,7 +774,6 @@ section.dedicated-customers .content {
     font-size: 36px;
     font-weight: 700;
     line-height: 43.2px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
     color: #8835C3;
 }
@@ -790,7 +783,6 @@ section.dedicated-customers .content {
     font-size: 18px;
     font-weight: 500;
     line-height: 25.2px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
 }
 
@@ -801,10 +793,10 @@ section.dedicated-customers .content {
 
 section.find-car {
     background-color: #F4F6FF;
-    padding: 4rem 0;
+    padding: 4rem 0 6rem;
 }
 
-section.find-car .title h3 {
+section.find-car .title h2 {
     font-family: Noto Sans Georgian;
     font-size: 45px;
     font-weight: 700;
@@ -915,7 +907,7 @@ section.about {
     padding: 4rem 0;
 }
 
-section.about .content h3 {
+section.about .content h2 {
     position: relative;
     font-family: Noto Sans Georgian;
     font-size: 45px;
@@ -926,7 +918,7 @@ section.about .content h3 {
     margin: 0 0 3rem;
 }
 
-section.about .content h3::after {
+section.about .content h2::after {
     content: '';
     position: absolute;
     left: 0;
@@ -967,7 +959,6 @@ section.about .content {
     font-size: 26px;
     font-weight: 600;
     line-height: 30px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
     margin: 0;
 }
@@ -977,7 +968,6 @@ section.about .content {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
     margin: 0;
 }
@@ -1002,7 +992,6 @@ section.thousand-dollars .inner h3 {
     font-size: 36px;
     font-weight: 700;
     line-height: 43.2px;
-    letter-spacing: -0.3199999928474426px;
     text-align: center;
 }
 
@@ -1015,7 +1004,6 @@ section.thousand-dollars .inner p {
     font-size: 18px;
     font-weight: 500;
     line-height: 25.2px;
-    letter-spacing: -0.3199999928474426px;
     text-align: center;
     color: #888888;
 }
@@ -1032,7 +1020,7 @@ section.thousand-dollars .inner .input-switcher .switcher {
     margin: 4rem 0 0;
 }
 
-.history-reporttt h3 {
+.history-reporttt h2 {
     font-family: Noto Sans Georgian;
     font-size: 45px;
     font-weight: 700;
@@ -1112,16 +1100,12 @@ section.pricingg {
 }
 
 section.login {
-    padding: 4rem 0;
+    padding: 6rem 0;
     background-color: #f0f1f5;
+    text-align: center;
 }
 
-section.login .inner {
-    height: 100%;
-    border-radius: 34px;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
+
 
 section.login .row {
     justify-content: center;
@@ -1157,23 +1141,9 @@ section.login .inner .content h5 {
     font-weight: 500;
 }
 
-section.login .inner .content input {
-    width: 100%;
-    background-color: #fff;
-    border: 1px solid #00000017;
-    outline: unset;
-    height: 52px;
-    padding: 0 0 0 16px;
-    border-radius: 12px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    font-size: 16px;
-    font-family: 'Inter';
-    font-weight: 400;
-    color: #000;
-}
 
 section.login .inner .content form {
-    margin-top: 2rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1188,21 +1158,21 @@ section.login .inner .content input::placeholder {
 }
 
 section.login .inner .content button {
+    gap: 0 10px !important;
     width: 100%;
-    background-color: #7d37b9;
-    border: 1px solid #00000017;
-    outline: unset;
-    height: 52px;
-    padding: 0 0 0 16px;
-    border-radius: 12px 0 12px 12px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    font-size: 18px;
-    font-family: 'Inter';
-    font-weight: 400;
+    display: flex;
+    background-color: #8835C3;
     color: #fff;
+    justify-content: center;
+    padding: 12px 22px;
+    height: unset;
+    align-items: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: center;
 }
-
-section.login .inner .content p {display: inline-block;margin: 2.5rem 0 0;font-family: Inter;font-size: 14px;font-weight: 400;line-height: 30px;text-align: left;}
 
 section.login .inner .logooo img {
     width: 140px;
@@ -1214,7 +1184,7 @@ section.signup  .logooo {
     padding: 50px 0 0 !important;
 }
 
-section.signup .logooo h4 {
+section.signup .logooo h5 {
     color: #fff;
     text-align: center;
     font-size: 30px;
@@ -1460,6 +1430,7 @@ section.signup .content {
     position: relative;
     display: inline-block;
     margin: 0;
+    color: #000;
 }
 
 .vehicle-sample-report .title h4::after {
@@ -1609,28 +1580,28 @@ section.signup .content {
     gap: 0 16px;
 }
 
-.report-body .col-md-3: nth-child(7) .inner {
+.report-body .col-md-3:nth-child(7) .inner {
     border-color: #EC2121;
 };
-.report-body .col-md-3: nth-child(7) .inner {
+.report-body .col-md-3:nth-child(7) .inner {
     border-color: #EC2121;
 };
-.report-body .col-md-3: nth-child(7) .inner {
+.report-body .col-md-3:nth-child(7) .inner {
     border-color: #EC2121;
 };
-.report-body .col-md-3: nth-child(7) .inner {
+.report-body .col-md-3:nth-child(7) .inner {
     border-color: #EC2121;
 };
-.report-body .col-md-3: nth-child(7) .inner {
+.report-body .col-md-3:nth-child(7) .inner {
     border-color: #EC2121;
 };
-.report-body .col-md-3: nth-child(7) .inner {
+.report-body .col-md-3:nth-child(7) .inner {
     border-color: #EC2121;
 };
-.report-body .col-md-3: nth-child(7) .inner {
+.report-body .col-md-3:nth-child(7) .inner {
     border-color: #EC2121;
 };
-.report-body .col-md-3: nth-child(7) .inner {
+.report-body .col-md-3:nth-child(7) .inner {
     border-color: #EC2121;
 };
 
@@ -1884,7 +1855,7 @@ section.pricing.pricingg .car-design {
     width: 400px;
 }
 
-.history-reporttt h3::after {
+.history-reporttt h2::after {
     content: '';
     position: absolute;
     left: 0;
@@ -1905,7 +1876,7 @@ section.vehicle-history .content {
     text-align: center;
 }
 
-section.vehicle-history h2 {
+section.vehicle-history h1 {
     font-size: 62px;
     font-weight: 700;
     line-height: 64px;
@@ -1920,7 +1891,6 @@ section.vehicle-history p {
     font-size: 23px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: -0.3199999928474426px;
     color: #8835C3;
     margin: 0 0 2rem;
 }
@@ -1932,14 +1902,14 @@ section.vehicle-history .bg-color {
 }
 
 section.pricing {
-    padding: 4rem 0 0;
+    padding: 4rem 0 5rem;
 }
 
 section.vh-premium {
     padding: 11rem 0 0;
 }
 
-section.vh-premium .inner h3 {
+section.vh-premium .inner h2 {
     font-family: 'Noto Sans Georgian';
     font-size: 45px;
     font-weight: 700;
@@ -1950,7 +1920,7 @@ section.vh-premium .inner h3 {
     margin: 0 0 1rem;
 }
 
-section.vh-premium .inner h3::after {
+section.vh-premium .inner h2::after {
     content: '';
     position: absolute;
     left: 0;
@@ -1975,7 +1945,6 @@ section.vh-premium .inner ul li {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: -0.3199999928474426px;
     text-align: left;
     color: #8A8A8A;
     display: flex;
@@ -1989,13 +1958,12 @@ section.vh-premium .inner ul li img {
 
 section.vh-premium .row {
     align-items: center;
-    ,
-    alignment-baseline: ;
     gap: 40px 0;
 }
 
 section.sample-record.twoo {
     background-image: unset;
+    padding-bottom: 4rem;
 }
 
 section.sample-record.twoo .content h2 {
@@ -2006,7 +1974,7 @@ section.sample-record.twoo .content h2 {
     text-align: left;
     color: #000;
     position: relative;
-    margin: 0 0 1rem;
+    margin: 0 0 1.5rem;
 }
 
 section.sample-record.twoo p {
@@ -2081,4 +2049,501 @@ section.chaypi-two {
 
 section.chaypi-three {
     padding: 0 0 4rem;
+}
+
+  header .navbar-nav li a.active {
+    color: #8835c3 !important;
+}
+
+section.nmvtis .inner {
+    background-color: #faf4ff;
+    padding: 60px 30px 20px;
+    border-radius: 30px;
+}
+
+section.nmvtis h2 {
+    font-family: Noto Sans Georgian;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000;
+    margin: 0 0 2rem;
+    position: relative;
+}
+
+section.nmvtis p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+section.nmvtis h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #FF4723;
+    width: 70px;
+    height: 2px;
+    bottom: -14px;
+}
+
+section.nmvtis .col-md-5 img {
+    width: 430px;
+    height: 192px;
+    object-fit: cover;
+}
+
+section.nmvtis .row {
+    align-items: center;
+}
+
+section.nmvtis {
+    padding: 0 0 5rem;
+}
+
+section.cta {
+    background-color: #8835C3;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+section.cta p {
+    font-family: Noto Sans Georgian;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #fff;
+}
+
+
+
+section.cta .container a:last-child {
+    width: unset;
+    padding: 14px 28px;
+    display: inline-block !important;
+    height: unset;
+    background-color: #8835C3;
+    color: #fff;
+    font-family: Inter;
+    text-decoration: underline !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+section.cta .container a {
+    display: flex;
+    background-color: #ffffff;
+    width: 200px;
+    height: 60px;
+    margin: 0px auto 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    gap: 0 10px !important;
+    text-align: center;
+    color: #8835C3;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+section.people .inner {
+    height: 100%;
+}
+
+section.people .inner .content {display: flex;flex-direction: column;align-items: center;justify-content: center;height: 100%;}
+
+section.people .img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+section.people .inner .content p {
+    font-family: Noto Sans Georgian;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    padding: 1px 19rem;
+}
+
+section.people .inner .content img {
+    margin: 0 0 1rem;
+}
+
+section.people .content a {
+    display: flex;
+    background-color: #8835C3;
+    width: 200px;
+    height: 60px;
+    margin: 10px auto 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    gap: 0 10px !important;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+section.people {
+    background-image: url(../images/people.png);
+    width: 100%;
+    height: 534px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-switchers {
+    padding: 15rem 0 0;
+    width: 86%;
+    margin: 0 auto;
+}
+
+.section-switchers li a {
+    border-bottom: 1px solid #2F3942;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    color: #2F3942;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 0 0 15px;
+    transition: all 0.5s;
+}
+
+.section-switchers ul {
+    margin: 0;
+    padding: 0 0 0 0px;
+    box-shadow: rgb(99 99 99 / 23%) 0px 2px 8px 0px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.section-switchers li:last-child a {border-color: transparent;}
+
+.section-switchers li a img {width: 38px;height: 38px;object-fit: contain;}
+
+.section-switchers li a:hover {
+    background-color: #f5f5f5;
+}
+
+section.pricingg .sample-reporttt img {
+    width: 100%;
+}
+
+
+
+section.nmvtis .col-md-4 img {
+    width: 100%;
+}
+
+.lang-signup button select {
+    font-family: 'Inter';
+    border: unset;
+    outline: unset;
+    font-weight: 500;
+}
+
+
+section.login .inner {
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    box-shadow: rgb(100 100 111 / 12%) 0px 7px 29px 0px;
+    border-radius: 15px;
+    padding: 0 70px 40px;
+    margin: 0 0 1rem;
+}
+
+section.login .row {
+    justify-content: center;
+}
+
+section.login .img {
+    margin: -40px 0 0;
+    position: relative;
+}
+
+section.login .img img {
+    transition: all 0.5s;
+    width: 110px;
+}
+
+section.login .content h3 {
+    position: relative;
+}
+
+section.login .content h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 90px;
+    height: 2px;
+    background-color: #dc143c;
+    bottom: -28px;
+    right: 0;
+    margin: 0 auto;
+}
+
+section.login .content p {font-family: Inter;font-size: 18px;font-weight: 500;line-height: 28px;}
+
+section.login .content form .flexx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #cecece;
+    overflow: hidden;
+    border-radius: 60px;
+    padding: 12px 22px;
+    width: 100%;
+}
+
+
+section.login .content form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 16px 0;
+}
+
+section.login .content form .flexx input {
+    width: 100%;
+    border: unset;
+    border-left: 1px solid #cecece;
+    margin-left: 12px;
+    padding-left: 12px;
+    outline: unset;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+section.login .content form .flexx input::placeholder {
+    color: #8d8d8d;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section.login form button {
+    display: flex;
+    justify-content: center;
+    background-color: #6a0dad;
+    width: 100%;
+    color: #fff;
+    border-radius: 50px;
+    height: 48px;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    transition: all 0.5s;
+    border: 2px solid transparent;
+}
+
+section.login form button:hover {
+    border-color: #6a0dad;
+    background-color: transparent;
+    color: #6a0dad;
+}
+
+
+section.login a.forgot-password {
+    font-family: 'Inter';
+    font-weight: 500;
+    display: inline-flex;
+    font-size: 15px;
+}
+
+div#check-vehicle-records ul {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 11px 0;
+}
+
+div#check-vehicle-records ul li {
+    font-family: 'Inter';
+    font-size: 16px;
+    list-style: disc;
+}
+
+div#check-vehicle-records ul li strong {font-weight: 600;}
+
+section.login .inner h2 {
+    font-family: "Noto Sans Georgian";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section.checkout {padding: 6rem 0;}
+
+.checkout .form-container, .order-summary {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout h2 {
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: clamp(20px, 3vw, 20px) !important;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.checkout label {
+    display: block;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.checkout input, select {
+    width: 100%;
+    padding: 0 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: unset;
+    height: 46px;
+}
+
+.checkout select{
+    font-family: 'Inter';
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: unset;
+    height: 46px;
+    color: #585858;
+}
+
+.checkout p {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.checkout .payment-icons img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.checkout .order-summary p {
+    margin-bottom: 10px;
+}
+
+.checkout .order-summary h2:last-child {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.payment-method {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .payment-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #CFCFD1;
+    border-radius: 4px;
+    padding: 0 30px;
+  }
+  
+  .payment-option input[type="radio"] {
+    margin-right: 10px;
+    height: 26px;
+    max-width: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  
+  .card-logos {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .card-logos img {
+    width: 70px !important;
+    height: 70px !important;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+
+.payment-option img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+
+.checkout .order-summary p.boldd {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.checkout .order-summary p.boldd a {
+    color: #8835c3;
+}
+
+button#checkoutt {
+    width: 100%;
+    border: unset;
+    padding: 0;
+    height: 60px;
+    background-color: #007bff;
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 4px;
 }

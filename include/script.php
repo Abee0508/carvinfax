@@ -5,8 +5,21 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
-<script src="js/cndk.beforeafter.js"></script>
+<script src="js/cndk.beforeafter.js"></script> 
 <script src="js/custom.js"></script>
+
+<!-- Google Translate Script -->
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'en,ja,es,ru,de,tl'
+        }, 'google_translate_element');
+    }
+</script>
+
+
 
 
 
