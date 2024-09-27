@@ -609,6 +609,7 @@ section.pricing .content h3 sub {
     font-weight: 400;
     line-height: 21.78px;
     text-align: left;
+    bottom: 0;
 }
 
 section.pricing .content a {
@@ -663,7 +664,7 @@ section.pricing .content.twoo h5 span {
     text-align: left;
     color: #8835C3;
     background-color: #fff;
-    padding: 5px 8px 5px 8px;
+    padding: 7px 8px 5px 8px;
     gap: 10px;
     border-radius: 4px;
 }
@@ -2694,3 +2695,36 @@ div#detail-history .title svg {
 
 
 .detail-history .detail-history-top h6 svg {font-size: 20px;margin-right: 10px;}
+
+span.img-placeholder img {width: 50px;}
+
+.report-top img {
+    width: 120px;
+}
+
+.banner-img {
+    position: relative;
+}
+
+.banner-img img.abs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 230px;
+}
+
+section.vh-premium .inner ul li span {
+    min-width: 16px;
+    height: 16px;
+    background-color: #8835c3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+section.vh-premium li span svg {
+    color: #fff;
+}
+    
