@@ -100,7 +100,7 @@
 							<div class="input-switcher">
 	
 								<div id="vinInput" class="input-container active">
-									<input type="text" placeholder="Enter VIN Number" />
+									<input type="text" placeholder="Enter your 17 character VIN" />
 									<button>Check VIN<i class="fa-solid fa-angle-right"></i></button>
 								</div>
 								<div id="plateInput" class="input-container">
@@ -112,7 +112,7 @@
 									<button>Check Plate <i class="fa-solid fa-angle-right"></i></button>
 								</div>
 							</div>
-							<img src="images/thousand-img.png">
+							<img src="images/thousand-img.svg">
 						</div>
 					</div>
 				</div>

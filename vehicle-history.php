@@ -40,7 +40,7 @@
 						<div class="content">
 							<h1>New look, same peace of mind.</h1>
 							<p>Key details at a glance with no surprises</p>
-							<img src="images/vehicle-history.png">
+							<img src="images/vehicle-history.svg">
 						</div>
 					</div>
 				</div>
@@ -55,9 +55,9 @@
 							<div class="inner">
 								<h2>Premium detail Package</h2>
 								<ul>
-									<li><img src="images/tick.png"> A detailed record of the vehicle's past, including previous owners, accident history, and maintenance records.</li>
-									<li><img src="images/tick.png"> Insights into the vehicle's ownership history, including any title issues, odometer discrepancies, and reported damages.</li>
-									<li><img src="images/tick.png">A thorough summary of the vehicle's background, covering service history, collision reports, and any salvage or insurance claims.</li>
+									<li><span><i class="fa-solid fa-check"></i></span> A detailed record of the vehicle's past, including previous owners, accident history, and maintenance records.</li>
+									<li><span><i class="fa-solid fa-check"></i></span> Insights into the vehicle's ownership history, including any title issues, odometer discrepancies, and reported damages.</li>
+									<li><span><i class="fa-solid fa-check"></i></span>A thorough summary of the vehicle's background, covering service history, collision reports, and any salvage or insurance claims.</li>
 								</ul>
 							</div>
 						</div>
@@ -67,18 +67,18 @@
 						</div>
 
 						<div class="col-md-6" style="text-align: left;">
-							<img src="images/elite.png" style="width: 80%;">
+							<img src="images/elite.svg" style="width: 80%;">
 						</div>
 
 						<div class="col-md-6">
 							<div class="inner">
 								<h2>Elite Gloss Package</h2>
 								<ul>
-									<li><img src="images/tick.png">Verification of the vehicle’s title status, including any salvage, rebuilt, or flood designations.</li>
-									<li><img src="images/tick.png"> Mileage history with documented odometer readings to identify any potential rollback or discrepancies.</li>
-									<li><img src="images/tick.png">Records of previous owners and their locations, ensuring transparency and clarity about the vehicle's past..</li>
-									<li><img src="images/tick.png">Information on any outstanding recalls or safety issues affecting the vehicle. Service and maintenance history to verify regular upkeep and identify any major repairs..</li>
-									<li><img src="images/tick.png">A summary of any insurance claims filed, providing insight into previous damage or repairs, Report on any structural damage or major repairs, including collision and flood damage assessments</li>
+									<li><span><i class="fa-solid fa-check"></i></span>Verification of the vehicle’s title status, including any salvage, rebuilt, or flood designations.</li>
+									<li><span><i class="fa-solid fa-check"></i></span> Mileage history with documented odometer readings to identify any potential rollback or discrepancies.</li>
+									<li><span><i class="fa-solid fa-check"></i></span>Records of previous owners and their locations, ensuring transparency and clarity about the vehicle's past..</li>
+									<li><span><i class="fa-solid fa-check"></i></span>Information on any outstanding recalls or safety issues affecting the vehicle. Service and maintenance history to verify regular upkeep and identify any major repairs..</li>
+									<li><span><i class="fa-solid fa-check"></i></span>A summary of any insurance claims filed, providing insight into previous damage or repairs, Report on any structural damage or major repairs, including collision and flood damage assessments</li>
 								</ul>
 							</div>
 						</div>
@@ -133,7 +133,7 @@
 						<div class="row">
 							<div class="col-md-7">
 								<h2>
-									<img src="images/nmvtis.png">
+									<img src="images/nmvtis.svg">
 									Official NMVTIS Source
 								</h2>
 								<p>
@@ -142,7 +142,7 @@
 							</div>
 
 							<div class="col-md-4">
-								<img src="images/nmvtis2.png">
+								<img src="images/logooooo.png">
 							</div>
 
 						</div>

@@ -48,12 +48,12 @@
 						<div class="content">
 							<h5>Premium detail Package</h5>
 							<ul>
-								<li><img src="images/tick-orange.png">Accident history </li>
-								<li><img src="images/tick-orange.png">Theft records </li>
-								<li><img src="images/tick-orange.png">Title records </li>
-								<li><img src="images/tick-orange.png">Market Value </li>
-								<li><img src="images/tick-orange.png">Liens and loans </li>
-								<li><img src="images/tick-orange.png">Odometer readings </li>
+								<li><span><i class="fa-solid fa-check"></i></span>Accident history </li>
+								<li><span><i class="fa-solid fa-check"></i></span>Theft records </li>
+								<li><span><i class="fa-solid fa-check"></i></span>Title records </li>
+								<li><span><i class="fa-solid fa-check"></i></span>Market Value </li>
+								<li><span><i class="fa-solid fa-check"></i></span>Liens and loans </li>
+								<li><span><i class="fa-solid fa-check"></i></span>Odometer readings </li>
 							</ul>
 							<h3>$<strong>100</strong> <sub>/one time</sub></h3>
 							<a href="buynow.php">Buy Now<i class="fa-solid fa-angle-right"></i></a>
@@ -66,22 +66,32 @@
 							<div class="row">
 								<div class="col-md-6">
 									<ul>
-										<li><img src="images/tick-orange.png">Accident history </li>
-										<li><img src="images/tick-orange.png">Theft records </li>
-										<li><img src="images/tick-orange.png">Title records </li>
-										<li><img src="images/tick-orange.png">Market Value </li>
-										<li><img src="images/tick-orange.png">Liens and loans </li>
-										<li><img src="images/tick-orange.png">Odometer readings </li>
+										<li><span><i class="fa-solid fa-check"></i></span>Accident history </li>
+										
+										<li><span><i class="fa-solid fa-check"></i></span>Theft records </li>
+										
+										<li><span><i class="fa-solid fa-check"></i></span>Title records </li>
+										
+										<li>
+										    <span><i class="fa-solid fa-check">
+										    
+										</i>
+										</span>Market Value </li>
+										
+										<li><span><i class="fa-solid fa-check"></i></span>Liens and loans </li>
+										
+										<li><span><i class="fa-solid fa-check"></i></span>Odometer readings </li>
+										
 									</ul>
 								</div>
 								<div class="col-md-6">
 									<ul>
-										<li><img src="images/tick-orange.png">Weather damage</li>
-										<li><img src="images/tick-orange.png">Service records</li>
-										<li><img src="images/tick-orange.png">Registration</li>
-										<li><img src="images/tick-orange.png">Detailed U.S History</li>
-										<li><img src="images/tick-orange.png">Odometer readings</li>
-										<li><img src="images/tick-orange.png">Rebuild or salvage title</li>
+										<li><span><i class="fa-solid fa-check"></i></span>Weather damage</li>
+										<li><span><i class="fa-solid fa-check"></i></span>Service records</li>
+										<li><span><i class="fa-solid fa-check"></i></span>Registration</li>
+										<li><span><i class="fa-solid fa-check"></i></span>Detailed U.S History</li>
+										<li><span><i class="fa-solid fa-check"></i></span>Odometer readings</li>
+										<li><span><i class="fa-solid fa-check"></i></span>Rebuild or salvage title</li>
 									</ul>
 								</div>
 							</div>

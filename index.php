@@ -82,7 +82,7 @@
 										<li><a href="sample-report.php">View a sample report</a></li>
 									</ul>
 									<ul>
-										<li><img src="images/banner-bottom-img.png"></li>
+										<li><img src="images/banner-bottom-img.svg"></li>
 									</ul>
 								</div>
 
@@ -96,7 +96,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<ul>
-								<li><img src="images/trusted-img.png"></li>
+								<li><img src="images/trusted-img.svg"></li>
 								<li>
 									<p>Trusted globally by <strong>1,000,000+</strong> users across <strong>150+</strong> nations</p>
 								</li>
@@ -105,22 +105,22 @@
 						<div class="col-md-4 logos">
 							<div class="row">
 								<div class="col">
-									<img src="images/logo1.png">
+									<img src="images/logo1.svg">
 								</div>
 								<div class="col">
-									<img src="images/logo2.png">
+									<img src="images/logo2.svg">
 								</div>
 								<div class="col">
-									<img src="images/logo3.png">
+									<img src="images/logo3.svg">
 								</div>
 								<div class="col">
-									<img src="images/logo4.png">
+									<img src="images/logo4.svg">
 								</div>
 								<div class="col">
-									<img src="images/logo5.png">
+									<img src="images/logo5.svg">
 								</div>
 								<div class="col">
-									<img src="images/logo6.png">
+									<img src="images/logo6.svg">
 								</div>
 							</div>
 						</div>
@@ -142,7 +142,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="content">
-							<img src="images/offer1.png">
+							<img src="images/offer1.svg">
 							<h4>Vehicle Damage</h4>
 							<ul>
 								<li><span><i class="fa-solid fa-check"></i></span> Accident History</li>
@@ -156,7 +156,7 @@
 
 					<div class="col-md-4">
 						<div class="content">
-							<img src="images/offer2.png">
+							<img src="images/offer2.svg">
 							<h4>Safety and Services</h4>
 							<ul>
 								<li><span><i class="fa-solid fa-check"></i></span>Unfixed safety recalls</li>
@@ -170,7 +170,7 @@
 
 					<div class="col-md-4">
 						<div class="content">
-							<img src="images/offer3.png">
+							<img src="images/offer3.svg">
 							<h4>Other essentials details</h4>
 							<ul>
 								<li><span><i class="fa-solid fa-check"></i></span>Money owing on the vehicle (lien)</li>
@@ -256,7 +256,7 @@
 					</div>
 
 					<div class="col-md-6">
-						<img src="images/sample-record.png">
+						<img src="images/sample-record.svg">
 					</div>
 
 				</div>
@@ -332,7 +332,7 @@
 		<section class="dedicated-customers">
 			<div class="container">
 				<div class="title">
-					<img src="images/dedicated-img.png">
+					<img src="images/dedicated-img.svg">
 					<h3>Dedicated Customer Support: We're Here to Help</h3>
 					<p>Our support team is always ready to assist you. Simply drop us a message, and we'll promptly respond to ensure a seamless experience.</p>
 				</div>
@@ -341,7 +341,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="inner">
-								<img src="images/dedi-icon1.png">
+								<img src="images/dedi-icon1.svg">
 								<h4>98%</h4>
 								<p>Satisfaction rate</p>
 							</div>
@@ -349,7 +349,7 @@
 
 						<div class="col-md-3">
 							<div class="inner">
-								<img src="images/dedi-icon2.png">
+								<img src="images/dedi-icon2.svg">
 								<h4>10 minutes</h4>
 								<p>Avg. response time</p>
 							</div>
@@ -357,7 +357,7 @@
 
 						<div class="col-md-3">
 							<div class="inner">
-								<img src="images/dedi-icon3.png">
+								<img src="images/dedi-icon3.svg">
 								<h4>24/7</h4>
 								<p>Chat Availability</p>
 							</div>

@@ -350,6 +350,7 @@
     section.thousand-dollars {
 
         background-position: right;
+    }
 
 
         section.thousand-dollars .col-md-6 {
@@ -612,7 +613,7 @@
         }
 
         section.sample-record.twoo ul {
-            grid-template-columns: repeat(1, 1fr);
+             grid-template-columns: repeat(1, 1fr);
             margin: 0 0 2rem;
         }
 
@@ -624,7 +625,7 @@
             width: 100%;
         }
     }
-}
+
 
 
 
@@ -658,6 +659,12 @@
 
 
     @media (max-width: 480px) {
+        
+   section.vh-premium .inner ul li span {
+        width: 18px;
+        height: 18px;
+    }
+
         .bg-color {
             height: 770px;
             overflow: hidden;
@@ -1116,6 +1123,7 @@
         }
 
     }
+}
 
 
 
@@ -1179,6 +1187,10 @@
 
 
     @media (max-width: 375px) {
+        
+        section.sample-record.twoo ul {
+    gap: 12px 0;
+}
 
         footer .headd img:last-child {
             width: 100%;
@@ -1282,4 +1294,16 @@
 
 
 
-    /* @media (max-width: 360px) {} */
+    @media (max-width: 360px) {
+        section.sample-record.twoo ul li {
+    font-size: 14px;
+}
+
+.banner-content-bottom ul li {
+    font-size: 12px;
+}
+
+.logos .row {
+    grid-template-columns: 1fr 1fr;
+}
+    }

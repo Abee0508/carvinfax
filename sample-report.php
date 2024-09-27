@@ -245,31 +245,31 @@
 									<div class="row">
 										<div class="col-md-6">
 											<div class="img">
-												<img src="images/car-image1.png">
+												<img src="images/car-image1.svg">
 											</div>
 										</div>
 
 										<div class="col-md-6">
 											<div class="img">
-												<img src="images/car-image2.png">
+												<img src="images/car-image2.svg">
 											</div>
 										</div>
 
 										<div class="col-md-6">
 											<div class="img">
-												<img src="images/car-image3.png">
+												<img src="images/car-image3.svg">
 											</div>
 										</div>
 
 										<div class="col-md-6">
 											<div class="img">
-												<img src="images/car-image4.png">
+												<img src="images/car-image4.svg">
 											</div>
 										</div>
 
 										<div class="col-md-6">
 											<div class="img">
-												<img src="images/car-image5.png">
+												<img src="images/car-image5.svg">
 											</div>
 										</div>
 									</div>
@@ -294,7 +294,7 @@
 
 										<div class="table-row">
 											<div class="row-data">
-												<span class="img-placeholder"><img src="images/sale-histroy.webp"></span>
+												<span class="img-placeholder"><img src="images/sale-histroy.png"></span>
 												<div class="info">
 													<span class="date">25 Oct 2021</span>
 
@@ -311,7 +311,7 @@
 
 										<div class="table-row">
 											<div class="row-data">
-												<span class="img-placeholder"><img src="images/sale-histroy.webp"></span>
+												<span class="img-placeholder"><img src="images/sale-histroy.png"></span>
 												<div class="info">
 													<span class="date">17 Feb 2021</span>
 												</div>
@@ -327,7 +327,7 @@
 
 										<div class="table-row">
 											<div class="row-data">
-												<span class="img-placeholder"><img src="images/sale-histroy.webp"></span>
+												<span class="img-placeholder"><img src="images/sale-histroy.png"></span>
 												<div class="info">
 													<span class="date">10 Feb 2021</span>
 												</div>
@@ -441,7 +441,7 @@
 
 							<div class="ownership-history damage-history" id="damage-history">
 								<div class="title universal">
-									<h5><img src="images/damage-history.png">Damage history</h5>
+									<h5><i class="fas fa-car-crash"></i>Damage history</h5>
 									<!-- <p><strong>Found</strong>: 2 owners</p> -->
 								</div>
 
@@ -468,7 +468,7 @@
 													</div>
 
 													<div class="all-owners damage-location">
-														<img src="images/damage1.png">
+														<img src="images/damage1.svg">
 													</div>
 
 												</div>
@@ -496,7 +496,7 @@
 													</div>
 
 													<div class="all-owners damage-location">
-														<img src="images/damage2.png">
+														<img src="images/damage2.svg">
 													</div>
 
 												</div>
