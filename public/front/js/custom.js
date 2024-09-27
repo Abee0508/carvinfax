@@ -1,5 +1,5 @@
- // Function to validate VIN input
- function setupVinValidation(inputId, errorId) {
+// Function to validate VIN input
+function setupVinValidation(inputId, errorId) {
   const vinInput = document.getElementById(inputId);
   const errorMessage = document.getElementById(errorId);
 
@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
   setupVinValidation('vin', 'error-message-1'); // For the first input
   setupVinValidation('vinField', 'error-message-2'); // For the second input
 });
-
 
 
 
