@@ -17,7 +17,7 @@
                             <div class="col-md-6 col-sm-12 col-lg-6">
                                 <div class="banner-content">
                                     <div class="banner-content-top">
-                                        <h6>Are you worried about buying a used car?</h6>
+                                        <h6>Are you worried about buying a used car? TEst</h6>
                                         <h1>Buying or selling a used car? Get the <span>Vehicle History.</span></h1>
                                         <p>Your VIN Check is just a click away</p>
                                     </div>
