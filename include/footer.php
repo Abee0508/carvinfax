@@ -1,7 +1,10 @@
 <footer>
 	<div class="container">
 		<div class="headd">
+			<div>
 			<img src="images/logo-white.png">
+			<a href="mailto:Support@carvinfax.com">support@carvinfax.com</a>
+			</div>
 			<img src="images/footer-imgg.png">
 		</div>
 		<div class="bodyy">

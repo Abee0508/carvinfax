@@ -2,37 +2,37 @@
 <div class="page">
 	<div class="page__wrapper">
 		<header>
-	<div class="container">
-		<nav class="navbar navbar-expand-lg">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php"><img src="images/home-icon.png"></a></li>
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="about.php"> About Us </a></li>
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="pricing.php">Packages</a></li>
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="sample-report.php">Sample Report</a></li>
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="vehicle-history.php">Vehicle History Report</a></li>
-					</ul>
-					<div class="lang-signup">
-					<button id="language">
-						<img src="images/language.png">
-						<select id="google_translate_element" class="menuDropdown">
-							<option>English</option>
-							<option>Turkish</option>
-						</select>
-					</button>
-					<a href="login.php">Login / Signup</a>
-				</div>
-				</div>
-				
+			<div class="container">
+				<nav class="navbar navbar-expand-lg">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav">
+								<li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php"><i class="fa-solid fa-house"></i></a></li>
+								<li class="nav-item"><a class="nav-link active" aria-current="page" href="about.php"> About Us </a></li>
+								<li class="nav-item"><a class="nav-link active" aria-current="page" href="pricing.php">Packages</a></li>
+								<li class="nav-item"><a class="nav-link active" aria-current="page" href="sample-report.php">Sample Report</a></li>
+								<li class="nav-item"><a class="nav-link active" aria-current="page" href="vehicle-history.php">Vehicle History Report</a></li>
+							</ul>
+							<div class="lang-signup">
+								<button id="language">
+									<img src="images/language.png">
+									<select id="google_translate_element" class="menuDropdown">
+										<option>English</option>
+										<option>Turkish</option>
+									</select>
+								</button>
+								<a href="pricing.php">Buy a report</a>
+							</div>
+						</div>
+
+					</div>
+				</nav>
 			</div>
-		</nav>
-	</div>
-</header>
+		</header>
 
 
 
@@ -64,7 +64,7 @@
 									<div class="row">
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/report-img1.png">
+												<span><i class="fa-solid fa-photo-film"></i></span>
 												<h6>Photo</h6>
 												<p>Found: 11 records</p>
 											</div>
@@ -72,7 +72,7 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/report-img1.png">
+												<span><i class="fa-solid fa-photo-film"></i></span>
 												<h6>Photo</h6>
 												<p>Found: 11 records</p>
 											</div>
@@ -80,7 +80,7 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/report-img1.png">
+												<span><i class="fa-solid fa-photo-film"></i></span>
 												<h6>Photo</h6>
 												<p>Found: 11 records</p>
 											</div>
@@ -88,22 +88,14 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/report-img1.png">
+												<span><i class="fa-solid fa-photo-film"></i></span>
 												<h6>Photo</h6>
 												<p>Found: 11 records</p>
 											</div>
 										</div>
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/report-img1.png">
-												<h6>Photo</h6>
-												<p>Found: 11 records</p>
-											</div>
-										</div>
-
-										<div class="col-md-3">
-											<div class="inner">
-												<img src="images/report-img1.png">
+												<span><i class="fa-solid fa-photo-film"></i></span>
 												<h6>Photo</h6>
 												<p>Found: 11 records</p>
 											</div>
@@ -111,7 +103,7 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/report-img1.png">
+												<span><i class="fa-solid fa-photo-film"></i></span>
 												<h6>Photo</h6>
 												<p>Found: 11 records</p>
 											</div>
@@ -119,14 +111,7 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/report-img1.png">
-												<h6>Photo</h6>
-												<p>Found: 11 records</p>
-											</div>
-										</div>
-										<div class="col-md-3">
-											<div class="inner">
-												<img src="images/report-img1.png">
+												<span><i class="fa-solid fa-photo-film"></i></span>
 												<h6>Photo</h6>
 												<p>Found: 11 records</p>
 											</div>
@@ -134,7 +119,14 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/report-img1.png">
+												<span><i class="fa-solid fa-photo-film"></i></span>
+												<h6>Photo</h6>
+												<p>Found: 11 records</p>
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="inner">
+												<span><i class="fa-solid fa-photo-film"></i></span>
 												<h6>Photo</h6>
 												<p>Found: 11 records</p>
 											</div>
@@ -142,7 +134,7 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/report-img1.png">
+												<span><i class="fa-solid fa-photo-film"></i></span>
 												<h6>Photo</h6>
 												<p>Found: 11 records</p>
 											</div>
@@ -150,7 +142,15 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/report-img1.png">
+												<span><i class="fa-solid fa-photo-film"></i></span>
+												<h6>Photo</h6>
+												<p>Found: 11 records</p>
+											</div>
+										</div>
+
+										<div class="col-md-3">
+											<div class="inner">
+												<span><i class="fa-solid fa-photo-film"></i></span>
 												<h6>Photo</h6>
 												<p>Found: 11 records</p>
 											</div>
@@ -161,14 +161,14 @@
 
 							<div class="vehicle-detail" id="vehicle-detail">
 								<div class="title universal">
-									<h5><img src="images/search.png"> Vehicle details</h5>
+									<h5><i class="fa-solid fa-magnifying-glass"></i> Vehicle details</h5>
 								</div>
 
 								<div class="content">
 									<div class="row">
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/vehicle-detail1.png">
+												<span><i class="fas fa-calendar"></i></span>
 												<p>Year</p>
 												<h6>2018</h6>
 											</div>
@@ -176,7 +176,7 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/vehicle-detail2.png">
+												<span><i class="fas fa-globe"></i></span>
 												<p>Country</p>
 												<h6>Englishtown (NJ)</h6>
 											</div>
@@ -184,7 +184,8 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/vehicle-detail3.png">
+												<span><i class="fas fa-car"></i>
+												</span>
 												<p>Make</p>
 												<h6>ALFA ROMEO</h6>
 											</div>
@@ -192,7 +193,8 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/vehicle-detail5.png">
+												<span><i class="fas fa-car"></i>
+												</span>
 												<p>Model</p>
 												<h6>GIULIA</h6>
 											</div>
@@ -200,7 +202,8 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/vehicle-detail5.png">
+												<span><i class="fas fa-gas-pump"></i>
+												</span>
 												<p>Fuel type</p>
 												<h6>Gasoline</h6>
 											</div>
@@ -208,7 +211,11 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/vehicle-detail6.png">
+												<span>
+													<i class="fas fa-car"></i>
+
+
+												</span>
 												<p>Drive unit</p>
 												<h6>Rear Wheel Drive</h6>
 											</div>
@@ -216,7 +223,9 @@
 
 										<div class="col-md-3">
 											<div class="inner">
-												<img src="images/vehicle-detail7.png">
+												<span>
+													<i class="fas fa-cogs"></i>
+												</span>
 												<p>Engine</p>
 												<h6>2.0L 280HP I4 DI TURBO</h6>
 											</div>
@@ -228,7 +237,7 @@
 
 							<div class="photoo" id="photo">
 								<div class="title universal">
-									<h5><img src="images/photo.png"> Photo</h5>
+									<h5><i class="fa-solid fa-photo-film"></i> Photo</h5>
 									<p><strong>Found</strong>: 11 records Auction: IAAI<br><strong>Date: </strong>2021.08.04</p>
 								</div>
 
@@ -264,16 +273,13 @@
 											</div>
 										</div>
 									</div>
-									<div class="photo-btn">
-										<button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
-										<button id="next"><i class="fa-solid fa-chevron-right"></i></button>
-									</div>
+
 								</div>
 							</div>
 
 							<div class="auction-history" id="auction-history">
 								<div class="title universal">
-									<h5><img src="images/auction.png"> Auction Sales history</h5>
+									<h5><i class="fas fa-gavel"></i> Auction Sales history</h5>
 									<p><strong>Found</strong>: 3 records</p>
 								</div>
 
@@ -288,7 +294,7 @@
 
 										<div class="table-row">
 											<div class="row-data">
-												<span class="img-placeholder"><img src="images/sale-histroy.png"></span>
+												<span class="img-placeholder"><img src="images/sale-histroy.webp"></span>
 												<div class="info">
 													<span class="date">25 Oct 2021</span>
 
@@ -305,7 +311,7 @@
 
 										<div class="table-row">
 											<div class="row-data">
-												<span class="img-placeholder"><img src="images/sale-histroy.png"></span>
+												<span class="img-placeholder"><img src="images/sale-histroy.webp"></span>
 												<div class="info">
 													<span class="date">17 Feb 2021</span>
 												</div>
@@ -321,7 +327,7 @@
 
 										<div class="table-row">
 											<div class="row-data">
-												<span class="img-placeholder"><img src="images/sale-histroy.png"></span>
+												<span class="img-placeholder"><img src="images/sale-histroy.webp"></span>
 												<div class="info">
 													<span class="date">10 Feb 2021</span>
 												</div>
@@ -341,7 +347,7 @@
 
 							<div class="ownership-history" id="ownership-history">
 								<div class="title universal">
-									<h5><img src="images/ownership.png"> Ownership history</h5>
+									<h5><i class="fas fa-handshake"></i> Ownership history</h5>
 									<p><strong>Found</strong>: 2 owners</p>
 								</div>
 
@@ -350,36 +356,36 @@
 										<div class="col-md-6">
 											<div class="owner-list">
 												<div class="head">
-													<img src="images/owner.png">
+													<i class="fa-solid fa-person"></i>
 													<h6>Owner 1</h6>
 												</div>
 												<div class="bodyy">
 													<div class="all-owners">
-														<img src="images/purchase.png">
+													<i class="fas fa-calendar"></i>
 														<h5>Year purchased:</h5>
 														<h6>2018</h6>
 													</div>
 
 													<div class="all-owners">
-														<img src="images/type.png">
+													<i class="fas fa-user"></i>
 														<h5>Type of owner:</h5>
 														<h6>Personal lease</h6>
 													</div>
 
 													<div class="all-owners">
-														<img src="images/lenght.png">
+													<i class="fas fa-clock"></i>
 														<h5>Estimated length of ownership:</h5>
 														<h6>10 months</h6>
 													</div>
 
 													<div class="all-owners">
-														<img src="images/odometercheck.png">
+													<i class="fas fa-road"></i>
 														<h5>Estimated miles driven per year:</h5>
 														<h6>---</h6>
 													</div>
 
 													<div class="all-owners">
-														<img src="images/odometercheck.png">
+													<i class="fas fa-tachometer-alt"></i>
 														<h5>Last reported odometer reading:</h5>
 														<h6>9,843</h6>
 													</div>
@@ -390,36 +396,36 @@
 										<div class="col-md-6">
 											<div class="owner-list">
 												<div class="head">
-													<img src="images/owner.png">
+													<i class="fa-solid fa-person"></i>
 													<h6>Owner 2</h6>
 												</div>
 												<div class="bodyy">
 													<div class="all-owners">
-														<img src="images/purchase.png">
+													<i class="fas fa-calendar"></i>
 														<h5>Year purchased:</h5>
 														<h6>2019</h6>
 													</div>
 
 													<div class="all-owners">
-														<img src="images/type.png">
+													<i class="fas fa-user"></i>
 														<h5>Type of owner:</h5>
 														<h6>Personal</h6>
 													</div>
 
 													<div class="all-owners">
-														<img src="images/lenght.png">
+													<i class="fas fa-clock"></i>
 														<h5>Estimated length of ownership:</h5>
 														<h6>1 yr. 8 mo.</h6>
 													</div>
 
 													<div class="all-owners">
-														<img src="images/odometercheck.png">
+													<i class="fas fa-road"></i>
 														<h5>Estimated miles driven per year:</h5>
 														<h6>16,223/yr</h6>
 													</div>
 
 													<div class="all-owners">
-														<img src="images/odometercheck.png">
+													<i class="fas fa-tachometer-alt"></i>
 														<h5>Last reported odometer reading:</h5>
 														<h6>35,688</h6>
 													</div>
@@ -444,20 +450,20 @@
 										<div class="col-md-6">
 											<div class="owner-list">
 												<div class="head">
-													<img src="images/owner.png">
+													<i class="fa-solid fa-person"></i>
 													<h6>Owner 2</h6>
 												</div>
 												<div class="bodyy">
 													<div class="all-owners">
-														<img src="images/date.png">
-														<h5>Date:</h5>
+														<i class="fas fa-calendar"></i> 
+														<h5>Date</h5>
 														<h6>08/01/2019</h6>
 													</div>
 
 
 													<div class="all-owners">
-														<img src="images/odometercheck.png">
-														<h5>Mileage:</h5>
+														<i class="fas fa-gas-pump"></i>
+														<h5>Mileage</h5> 
 														<h6>mi</h6>
 													</div>
 
@@ -472,20 +478,20 @@
 										<div class="col-md-6">
 											<div class="owner-list">
 												<div class="head">
-													<img src="images/owner.png">
+													<i class="fa-solid fa-person"></i>
 													<h6>Owner 2</h6>
 												</div>
 												<div class="bodyy">
 													<div class="all-owners">
-														<img src="images/date.png">
-														<h5>Date:</h5>
+														<i class="fas fa-calendar"></i>
+														<h5>Date</h5> 
 														<h6>08/30/2019</h6>
 													</div>
 
 
 													<div class="all-owners">
-														<img src="images/odometercheck.png">
-														<h5>Mileage:</h5>
+														<i class="fas fa-gas-pump"></i> 
+														<h5>Mileage</h5>
 														<h6>mi</h6>
 													</div>
 
@@ -504,7 +510,7 @@
 							<div class="detail-damage-history detail-history" id="detail-history">
 								<div class="title universal">
 									<h5>Detailed Damage history</h5>
-									<h6><img src="images/owner.png">Owner 2</h6>
+									<h6><i class="fa-solid fa-person"></i>Owner 2</h6>
 								</div>
 
 								<div class="content">
@@ -566,7 +572,7 @@
 							<div class="detail-damage-history two detail-history">
 								<div class="title universal">
 									<h5>Detailed Damage history</h5>
-									<h6><img src="images/owner.png">Owner 3</h6>
+									<h6><i class="fa-solid fa-person"></i>Owner 3</h6>
 								</div>
 
 								<div class="content">
@@ -594,13 +600,13 @@
 
 							<div class="detail-history">
 								<div class="title universal">
-									<h5><img src="images/detailed-history.png"> Detailed History</h5>
+									<h5><i class="fas fa-file-alt"></i> Detailed History</h5>
 									<!-- <p><strong>Found</strong>: 2 owners</p> -->
 								</div>
 
 								<div class="content mb-5">
 									<div class="detail-history-top">
-										<h6><img src="images/owner.png">Owner 1</h6>
+										<h6><i class="fa-solid fa-person"></i>Owner 1</h6>
 									</div>
 
 									<div class="bodyy">
@@ -708,7 +714,7 @@
 
 								<div class="content mb-5">
 									<div class="detail-history-top">
-										<h6><img src="images/owner.png">Owner 2</h6>
+										<h6><i class="fa-solid fa-person"></i>Owner 2</h6>
 									</div>
 
 									<div class="bodyy">
@@ -868,7 +874,7 @@
 
 								<div class="content">
 									<div class="detail-history-top">
-										<h6><img src="images/owner.png">Owner 3</h6>
+										<h6><i class="fa-solid fa-person"></i>Owner 3</h6>
 									</div>
 
 									<div class="bodyy">
@@ -938,7 +944,7 @@
 
 							<div class="sales-history detail-history" id="sales-history">
 								<div class="title universal">
-									<h5><img src="images/sales.png"> Sales history</h5>
+									<h5><i class="fas fa-dollar-sign"></i> Sales history</h5>
 									<p><strong>Found</strong>: 3 records</p>
 								</div>
 
@@ -993,11 +999,10 @@
 							<div class="title universal">
 								<h5>Want to check another vehicle?</h5>
 							</div>
-							<div id="vinInput" class="input-container active">
-								<input type="text" placeholder="Enter your 17 character VIN">
-								<button>Check your Car<svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
-										<path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
-									</svg></button>
+							<div id="vinInput" class="redd input-container active">
+								<input type="text" placeholder="Enter your 17 character VIN" id="vinField" />
+								<button id="checkButton">Check VIN<i class="fa-solid fa-angle-right"></i></button>
+								<p id="error-message-2" style="color:red; display:none;">VIN must be exactly 17 characters long.</p>
 							</div>
 						</div>
 
@@ -1007,31 +1012,36 @@
 						<div class="section-switchers">
 							<ul>
 								<li>
-									<a href="#vehicle-detail"><img src="images/search.png">Vehicle details </a>
+									<a href="#vehicle-detail"><i class="fa-solid fa-magnifying-glass"></i>Vehicle details </a>
 								</li>
 
 								<li>
-									<a href="#photo"><img src="images/photo.png">Photo </a>
+									<a href="#photo"><i class="fa-solid fa-photo-film"></i>Photo </a>
 								</li>
 
 								<li>
-									<a href="#auction-history"><img src="images/auction.png">Auctions Sales history </a>
+									<a href="#auction-history"><i class="fas fa-gavel"></i>
+										Auctions Sales history </a>
 								</li>
 
 								<li>
-									<a href="#ownership-history"><img src="images/ownership.png">Ownership history </a>
+									<a href="#ownership-history"><i class="fas fa-handshake"></i>
+										Ownership history </a>
 								</li>
 
 								<li>
-									<a href="#damage-history"><img src="images/damage-history.png">Damage history </a>
+									<a href="#damage-history"><i class="fas fa-car-crash"></i>
+										Damage history </a>
 								</li>
 
 								<li>
-									<a href="#detail-history"><img src="images/detailed-history.png">Detailed History </a>
+									<a href="#detail-history"><i class="fas fa-file-alt"></i>
+										Detailed History </a>
 								</li>
 
 								<li>
-									<a href="#sales-history"><img src="images/sales.png">Sales history </a>
+									<a href="#sales-history"><i class="fas fa-dollar-sign"></i>
+										Sales history </a>
 								</li>
 							</ul>
 						</div>

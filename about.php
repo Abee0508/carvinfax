@@ -11,7 +11,7 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php"><img src="images/home-icon.png"></a></li>
+						<li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php"><i class="fa-solid fa-house"></i></a></li>
 						<li class="nav-item"><a class="nav-link active" aria-current="page" href="about.php"> About Us </a></li>
 						<li class="nav-item"><a class="nav-link active" aria-current="page" href="pricing.php">Packages</a></li>
 						<li class="nav-item"><a class="nav-link active" aria-current="page" href="sample-report.php">Sample Report</a></li>
@@ -20,12 +20,9 @@
 					<div class="lang-signup">
 					<button id="language">
 						<img src="images/language.png">
-						<select id="google_translate_element" class="menuDropdown">
-							<option>English</option>
-							<option>Turkish</option>
-						</select>
+						<span id="current-lang">EN</span>
 					</button>
-					<a href="login.php">Login / Signup</a>
+					<a href="pricing.php">Buy a report</a>
 				</div>
 				</div>
 				
@@ -62,7 +59,7 @@
 					<div class="row">
 						<div class="col-md-4">
 							<div class="inner">
-								<img src="images/value1.png">
+								<img src="images/value1.svg">
 								<h5>Transparent</h5>
 								<p>Having clear intentions and not taking sides.</p>
 							</div>
@@ -70,7 +67,7 @@
 
 						<div class="col-md-4">
 							<div class="inner">
-								<img src="images/value2.png">
+								<img src="images/value2.svg">
 								<h5>Integrity</h5>
 								<p>Doing what's right, not what's easy.</p>
 							</div>
@@ -78,7 +75,7 @@
 
 						<div class="col-md-4">
 							<div class="inner">
-								<img src="images/value3.png">
+								<img src="images/value3.svg">
 								<h5>Consumer advocate</h5>
 								<p>Helping them make better decisions.</p>
 							</div>
@@ -101,10 +98,7 @@
 							<h3>Save Thousands of Dollars</h3>
 							<p>Learn everything there is to know about your next car.</p>
 							<div class="input-switcher">
-								<div class="switcher">
-									<button id="byVin" class="active" onclick="showVinInput()">by VIN</button>
-									
-								</div>
+	
 								<div id="vinInput" class="input-container active">
 									<input type="text" placeholder="Enter VIN Number" />
 									<button>Check VIN<i class="fa-solid fa-angle-right"></i></button>

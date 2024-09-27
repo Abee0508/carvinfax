@@ -11,7 +11,7 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php"><img src="images/home-icon.png"></a></li>
+                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php"><i class="fa-solid fa-house"></i></a></li>
                                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.php"> About Us </a></li>
                                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="pricing.php">Packages</a></li>
                                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="sample-report.php">Sample Report</a></li>
@@ -25,7 +25,7 @@
                                         <option>Turkish</option>
                                     </select>
                                 </button>
-                                <a href="login.php">Login / Signup</a>
+                                <a href="login.php">Get report</a>
                             </div>
                         </div>
 
@@ -41,6 +41,12 @@
                         <div class="form-container">
                             <h2>Customer Information</h2>
                             <form>
+                                <label for="vin">Enter Your 17 character VIN *</label>
+                                <input type="text" id="vin" name="vin" required>
+                                <p id="error-message-1" style="color:red; display:none;">VIN must be exactly 17 characters long.</p>
+
+
+
                                 <label for="name">Name *</label>
                                 <input type="text" id="name" name="name" required>
 

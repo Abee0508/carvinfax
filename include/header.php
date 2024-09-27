@@ -8,7 +8,7 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php"><img src="images/home-icon.png"></a></li>
+						<li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php"><i class="fa-solid fa-house"></i></a></li>
 						<li class="nav-item"><a class="nav-link active" aria-current="page" href="about.php"> About Us </a></li>
 						<li class="nav-item"><a class="nav-link active" aria-current="page" href="pricing.php">Packages</a></li>
 						<li class="nav-item"><a class="nav-link active" aria-current="page" href="sample-report.php">Sample Report</a></li>
@@ -19,7 +19,7 @@
 						<img src="images/language.png">
 						<span id="current-lang">EN</span>
 					</button>
-					<a href="login.php">Login / Signup</a>
+					<a href="pricing.php">Buy a report</a>
 				</div>
 				</div>
 				

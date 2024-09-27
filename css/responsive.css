@@ -155,7 +155,7 @@
     }
 
     footer .headd img:last-child {
-        width: 200px;
+        width: 180px;
     }
 
     footer .headd img:first-child {
@@ -163,8 +163,7 @@
     }
 
     footer .bodyy ul li a {
-        font-size: 14px;
-
+        font-size: 12px;
     }
 
     footer .footerr p {
@@ -319,7 +318,7 @@
         width: 100%;
     }
     .trusted {
-        margin: 11rem 0 0;
+        margin: 9rem 0 0;
     }
     
     .trusted .row {
@@ -484,6 +483,95 @@ section.login .col-md-8 {
 
 @media (max-width: 480px) {
 
+    .section-switchers li svg {
+        font-size: 20px;
+    }
+
+    .headd div {
+        flex-direction: column;
+        gap: 6px 0;
+    }
+
+    .headd div a {
+        font-size: 12px;
+    }
+    
+section.people {
+    height: 280px;
+    background-image: unset;
+}
+
+section.pricing .content ul {
+    margin: 8px 0 0;
+}
+
+section.pricing .row {
+    gap: 0 0;
+}
+
+
+section.sample-record.twoo {
+    padding-bottom: 2rem;
+}
+
+section.cta img {
+    width: 140px;
+}
+
+section.cta p {
+    font-size: 16px !important;
+    line-height: 26px !important;
+}
+
+section.vh-premium .row .col-md-6:nth-child(3) {
+    order: 4;
+}
+    section.vehicle-history h1 {
+    margin: 0 0 1rem;
+}
+
+section.banner.vehicle-history {
+    overflow: visible;
+}
+
+section.vehicle-history .bg-color {
+    padding-top: 3rem;
+    height: 260px;
+}
+
+section.vehicle-history p {
+    margin: 0 0 1rem;
+}
+    .what-we-offer-title h6 {
+    text-align: left;
+}
+    
+    .what-we-offer-title h2{
+        text-align: left;
+    }
+    section.thousand-dollars {
+    background-image: unset;
+    background-color: #fff;
+
+}
+    
+    section.vehicle-record {
+    padding: 3rem 0 0;
+}
+
+footer .headd img:last-child {
+    width: 400px;
+}
+
+.what-we-offer-title {
+    text-align: center;
+    margin: 0 0 2rem;
+}
+    
+    section.sample-record .row {
+    gap: 40px 0;
+}
+
     h1 {
         line-height: clamp(32px, 16vh, 32px) !important;
         font-size: clamp(20px, 6vw, 30px) !important;
@@ -518,6 +606,9 @@ section.login .col-md-8 {
 
     footer .footerr p {
         text-align: center;
+        font-size: 12px !important;
+        letter-spacing: unset !important;
+        line-height: unset !important;
     }
 
     .banner-img img {
@@ -541,8 +632,8 @@ section.login .col-md-8 {
     }
 
     footer .bodyy ul {
-        flex-direction: column;
-    }
+display: grid;
+  grid-template-columns: repeat(2, 1fr);    }
 
     footer .headd {
         gap: 30px 0;
@@ -613,22 +704,18 @@ section.login .col-md-8 {
         padding: 3rem 0 0;
     }
 
-  
-    section.what-we-offer .content h4::after {
-        margin: auto;
-    }
 
     .repeated {
-        align-items: center;
-    }
+    align-items: flex-start !important;
+}
+.repeated h2 {
+    text-align: left;
+    width: 68%;
+}
 
-    .repeated h2 {
-        text-align: center;
-    }
-
-    .repeated p {
-        text-align: center;
-    }
+.repeated p {
+    text-align: left;
+}
 
     section.sample-record {
         padding: 3rem 0 3rem;
@@ -706,6 +793,7 @@ section.login .col-md-8 .inner {
 
 .checkout label {
     display: contents;
+    font-size: 14px;
 }
 
 .card-logos {
@@ -725,9 +813,39 @@ div#check-vehicle-records ul li {
     font-size: 14px;
 }
 
-.history-reporttt h2::after {
-    margin: auto;
+section.pricing .content h3 {
+    margin-top: 1rem;
 }
+
+div#vinInput input::placeholder {
+    font-size: 12px;
+}
+
+div#vinInput button {
+    width: max-content;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer .bodyy ul li:nth-child(1) {order: 1;}
+
+footer .bodyy ul li:nth-child(2) {
+    order: 5;
+}
+
+footer .bodyy ul li:nth-child(3) {
+    order: 6;
+}
+
+footer .bodyy ul li:nth-child(4) {
+    order: 5;
+}
+
+footer .bodyy ul li:nth-child(5) {
+    order: 4;
+}
+
 }
 
 

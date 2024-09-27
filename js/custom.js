@@ -1,3 +1,42 @@
+ // Function to validate VIN input
+ function setupVinValidation(inputId, errorId) {
+  const vinInput = document.getElementById(inputId);
+  const errorMessage = document.getElementById(errorId);
+
+  // Check if the elements exist before adding the event listener
+  if (!vinInput || !errorMessage) {
+      console.error(`Element with ID ${inputId} or ${errorId} not found.`);
+      return;
+  }
+
+  vinInput.addEventListener('input', function () {
+      const vinLength = vinInput.value.length;
+
+      // If VIN length is greater than 17, trim the input
+      if (vinLength > 17) {
+          vinInput.value = vinInput.value.slice(0, 17); // Limit input to 17 characters
+      }
+
+      // Check the length to show/hide error message
+      if (vinInput.value.length === 17) {
+          vinInput.classList.remove('invalid');
+          errorMessage.style.display = 'none'; // Hide error message
+      } else {
+          vinInput.classList.add('invalid');
+          errorMessage.style.display = 'block'; // Show error message
+      }
+  });
+}
+
+// Wait for the DOM to load before setting up validations
+document.addEventListener('DOMContentLoaded', function () {
+  setupVinValidation('vin', 'error-message-1'); // For the first input
+  setupVinValidation('vinField', 'error-message-2'); // For the second input
+});
+
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
   if (window.location.hash) {
       var targetElement = document.querySelector(window.location.hash);
@@ -8,32 +47,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
- jQuery(document).ready(function() {
-        jQuery('#cta-salider-main').owlCarousel({
-            items:2,
-            loop:true,
-            nav:true,
-            dots:false,
-            cssEase: 'ease',
-            margin:20,
-            autoplay:true,
-            autoplaySpeed: 1000,
-            speed: 800,
-            stagePadding: 130,
-            navText : ["<i class='fa-solid fa-angle-left'></i> ","<i class='fa-solid fa-angle-right'></i>"],
-            responsive:{
-                0:{
-                    items:1,
-                },
-                600:{
-                    items:2
-                },
-                1000:{
-                    items:2
-                }
-            }
-        });
-    });
+
+
+   
+
 
 
 
@@ -196,3 +213,31 @@ function showPlateInput() {
             );
             
         });
+
+
+        jQuery(document).ready(function() {
+          jQuery('#car-damage').owlCarousel({
+              items:1,
+              loop:true,
+              nav:true,
+              dots:false,
+              cssEase: 'ease',
+              margin:20,
+              autoplay:true,
+              autoplaySpeed: 1000,
+              speed: 800,
+              stagePadding: 130,
+              navText : ["<i class='fa-solid fa-angle-left'></i> ","<i class='fa-solid fa-angle-right'></i>"],
+              responsive:{
+                  0:{
+                      items:1,
+                  },
+                  600:{
+                      items:1
+                  },
+                  1000:{
+                      items:1
+                  }
+              }
+          });
+      });
