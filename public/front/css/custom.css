@@ -1,0 +1,2696 @@
+
+@charset "utf-8";
+/* CSS Document */
+body, html{
+    height: 100%;
+}
+
+body{
+    background: #fff;
+}
+
+h1 {
+    font-size: clamp(24px, 4vw, 62px) !important;
+    line-height: clamp(32px, 16vh, 64px) !important;
+}
+h2{
+    font-size: clamp(24px, 4vw, 45px) !important;
+    line-height: clamp(32px, 18vh, 45px) !important;
+}
+h3{
+    font-size: clamp(24px, 4vw, 36px) !important;
+    line-height: clamp(32px, 14vh, 43.2px) !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, a, ul, li{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+a {
+    text-decoration: none !important;
+    transition: all 0.5s;
+}
+.carousel-item img {
+    width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+div#navbarCollapse {
+    flex-direction: row-reverse;
+}
+
+
+
+.input-switcher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 2rem 0 4rem;
+}
+
+.switcher {
+    display: flex;
+    border: unset;
+    border-radius: 20px;
+    background-color: #ffffff;
+    place-self: flex-start;
+}
+
+.switcher button {
+    padding: 12px 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    background-color: 0.3s ease;
+    border-radius: 15px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    color: #000;
+}
+
+.switcher button.active {
+    background-color: #000;
+    color: #fff;
+    position: relative;
+}
+
+.input-container {
+    display: none;
+    align-items: center;
+    border: 2px solid #FF4723;
+    border-radius: 50px;
+    padding: 0 4px 0 0;
+    background-color: #fff;
+    box-shadow: 0 6px 5px 4px #00000014;
+}
+
+.input-container.active {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+#vinInput input,
+#plateInput input {
+    border: none;
+    outline: none;
+    padding: 0 0 0 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    flex-grow: 1;
+    height: 54px;
+}
+
+#vinInput button,
+#plateInput button {
+    background-color: #FF4723;
+    color: white;
+    padding: 14px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Inter;
+    font-size: 16px;
+    justify-content: center;
+    font-weight: 400;
+    width: 190px;
+    line-height: 21.6px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+#plateInput button {
+    background-color: #0071DB;
+}
+
+
+header a.navbar-brand {
+    margin: 0;
+}
+
+header .collapse {
+    justify-content: space-around;
+}
+
+header .navbar-nav li a {
+    padding: 0 !important;
+    font-family: Inter;
+    font-size: clamp(14px, 1vw, 16px);
+    font-weight: 500;
+    line-height: 18px;
+    color: #666666 !important;
+}
+
+header .navbar-nav {
+    display: flex;
+    align-items: flex-end;
+    gap: 0 36px;
+    margin: auto;
+}
+
+.lang-signup button {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    border: unset;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.lang-signup button img {
+    width: 25px;
+}
+
+.lang-signup {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    position: relative;
+}
+
+.lang-signup a {
+    padding: 10px 16.65px 11px 17px;
+    border-radius: 50px;
+    border: 2px solid #FF4723;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    color: #FA4A22;
+    transition: all 0.5s;
+}
+
+.lang-signup a:hover {
+    background-color: #FF4723;
+    color: #fff;
+}
+
+.bg-color {
+    background-color: #EFF7FF;
+    padding: 3rem 0 0;
+    height: 540px;
+}
+
+.banner-content-top h6 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #FF4723;
+}
+
+.banner-content-top h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    font-family: "Noto Sans Georgian";
+}
+
+.banner-content-top h1 span {
+    color: #8835C3;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-content-top p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.switcher button.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    margin: 0 auto;
+    width: 10px;
+    background: #000;
+    height: 10px;
+    bottom: -4px;
+    z-index: 999;
+    transform: rotate(45deg);
+}
+
+.input-container input::placeholder {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+    color:  #999999;
+}
+
+.input-container select {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+    color:  #999999;
+    outline: unset;
+}
+
+.banner-content-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content-bottom ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 0 10px;
+}
+
+.banner-content-bottom ul li {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #666666;
+}
+
+.banner-content-bottom ul li a {
+    color: #FF4723;
+    text-decoration: underline !important;
+}
+
+.banner-content-bottom ul li a {
+    margin-right: 8px;
+}
+
+.trusted ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.trusted ul li p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    color: #666666;
+    margin: 0 0 0 8px;
+}
+
+
+
+
+.logos .row {display: grid;grid-template-columns: 1fr 1fr 1fr; /* Display 5 columns */gap: 10px; /* Adjust the gap between columns as needed */}
+
+.input-container select {
+    height: 100%;
+    border: unset;
+    background-color: transparent;
+    width: 28%;
+    border-left: 1px solid #0000002e;
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
+
+div#plateInput {
+    border-color: #0071DB;
+}
+
+
+.input-switcher svg {
+    font-size: 16px;
+}
+
+section.what-we-offer .content {
+    border: 1px solid #0000001A;
+    box-shadow: 0px 4px 15px 0px #0000000F;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 16px 0;
+    padding: 32px 26px;
+    transition: all 0.4s;
+    cursor: pointer;
+    height: 390px;
+}
+
+section.what-we-offer .content ul {
+    margin: 10px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0;
+}
+
+.what-we-offer-title {
+    text-align: center;
+    margin: 0 0 4rem;
+}
+
+.what-we-offer-title h6 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #FF4723;
+}
+
+.what-we-offer-title h2 {
+    color: #000;
+    font-family: "Noto Sans Georgian";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+}
+
+section.what-we-offer {
+    padding: 6rem 0 0;
+}
+
+.trusted {margin: 3rem 0 0;border-bottom: 1px solid #00000026;padding: 0 0 40px;position: relative;z-index: 9;}
+
+section.what-we-offer .content h4 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    font-family: "Noto Sans Georgian";
+    position: relative;
+}
+
+section.what-we-offer .content h4::after {content: '';position: absolute;left: 0;right: 0;display: flex;background-color: #FF4723;width: 60px;height: 2px;bottom: -14px;}
+
+section.what-we-offer .content li {
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+    color: #212529;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+section.what-we-offer .content:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.cndkbeforeafter-hover:hover {
+    box-shadow: unset;
+    margin: 0 auto;
+}
+
+.cndkbeforeafter-hover {
+    border: unset;
+    box-shadow: unset;
+}
+
+section.vehicle-record .album .col-md-12 {
+    padding: 0;
+}
+
+section.vehicle-record .card {
+    border: 1px solid #0000001A !important;
+    box-shadow: 0px 5px 20px 0px #00000014;
+    margin: 0 !important;
+    border-radius: 15px !important;
+    overflow: hidden;
+}
+
+.cndkbeforeafter-theme-light .cndkbeforeafter-seperator > div > span {
+    border-color: #5819c5 !important;
+    background: #5819c5 !important;
+}
+
+section.vehicle-record {
+    padding: 6rem 0 0;
+}
+
+.repeated h6 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #FF4723;
+}
+
+.repeated h2 {
+    font-family: "Noto Sans Georgian";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000;
+}
+
+.repeated p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.repeated a {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    background-color: #8835C3;
+    display: inline-flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 14px 28px;
+    gap: 0 10px;
+}
+
+.repeated {
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0;
+    align-items: self-start;
+    padding-left: 3rem;
+}
+
+section.vehicle-record .album, .container, .row, .col-md-12, .card, .beforeafterdrag, .cndkbeforeafter-item {
+    height: 100% !important;
+}
+
+
+section.vehicle-record .card img {
+    height: 100%;
+    object-fit: cover;
+}
+
+section.sample-record {
+    padding: 6rem 0;
+    background-image: linear-gradient(to bottom, #ffffff, #fefdff, #fcfbff, #fcf8ff, #fbf6ff);
+}
+
+section.sample-record img {
+    width: 100%;
+}
+
+
+.trusted .row {
+    align-items: center;
+    justify-content: center;
+}
+
+section.sample-record .row {
+    align-items: center;
+}
+
+section.pricing .content {
+    border: 1px solid #0000001A;
+    box-shadow: 0px 4px 15px 0px #0000000F;
+    border-radius: 15px;
+    padding: 30px  25px;
+}
+
+section.pricing .content h5 {
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.84px;
+    text-align: left;
+    color: #181059;
+}
+
+section.pricing .content ul {
+    padding: 0;
+    margin: 1rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+section.pricing .content ul li {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #181059;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+section.pricing .content.twoo a {
+    background-color: #8835C3;
+    color: #fff;
+}
+
+section.pricing .content.twoo h3 {
+    color: #fff;
+}
+
+section.pricing .content h3 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    text-align: left;
+    color: #8835C3;
+    margin: 0 0 1.5rem;
+}
+
+section.pricing .content h3 strong {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+section.pricing .content h3 sub {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+}
+
+section.pricing .content a {
+    width: 100%;
+    height: 50px;
+    gap: 0px;
+    border-radius: 50px;
+    background: #F7ECFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: center;
+    color: #8835C3;
+    position: relative;
+}
+
+section.pricing .content a svg {
+    position: absolute;
+    right: 20px; 
+    height: 24px; 
+    width: 24px;
+}
+
+section.pricing .content.twoo {
+    background-image: url(../images/elite-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 25px !important;
+}
+
+section.pricing .content.twoo h5 {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+section.pricing .content.twoo li {
+    color: #fff;
+}
+
+section.pricing .content.twoo h5 span {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.52px;
+    text-align: left;
+    color: #8835C3;
+    background-color: #fff;
+    padding: 5px 8px 5px 8px;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+
+
+section.dedicated-customers {
+    padding: 2rem 0 5rem;
+}
+
+section.dedicated-customers .title {
+    text-align: center;
+}
+
+section.dedicated-customers .title p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: center;
+    color: #666666;
+}
+
+section.dedicated-customers .title {
+    margin: 0 0 4rem;
+}
+
+section.dedicated-customers .title h2 {
+    font-family: Noto Sans Georgian;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: center;
+    color: #000;
+}
+
+section.dedicated-customers .title img {
+    margin: 0 0 1rem;
+}
+
+section.dedicated-customers .content .row {
+    justify-content: center;
+}
+
+section.dedicated-customers .inner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px 0;
+    align-items: center;
+}
+
+section.dedicated-customers .inner h4 {
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 31.2px;
+    text-align: center;
+    color: #000;
+}
+
+section.dedicated-customers .inner p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+    color: #666666;
+    margin: 0;
+}
+
+section.dedicated-customers .content {
+    margin: 0 0 5rem;
+}
+
+
+.history-report {
+    background-image: url(../images/history-report.png);
+    /* background-color: #F7ECFF; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 475px;
+    overflow: hidden;
+    padding: 50px 50px;
+    border-radius: 14px;
+}
+
+.history-report h3 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: left;
+    color: #000;
+}
+
+.history-report h3 .fntt {
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 79.2px;
+    text-align: left;
+    color: #8835C3;
+}
+
+.history-report span {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: left;
+    color: #8835C3;
+}
+
+.history-report p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: left;
+}
+
+.history-report .row {
+    align-items: center;
+}
+
+
+section.find-car {
+    background-color: #F4F6FF;
+    padding: 4rem 0 6rem;
+}
+
+section.find-car .title h2 {
+    font-family: Noto Sans Georgian;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #050B20;
+}
+
+section.find-car .title {
+    margin: 0 0 3rem;
+}
+
+section.find-car .inner {
+    box-shadow: -4px 4px 9px 0px #DADDE633;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 80px;
+    border-radius: 5px;
+    padding: 0 20px;
+    gap: 0 20px;
+    transition: all 0.5s;
+}
+
+section.find-car .content .row {
+    gap: 16px 0;
+}
+
+section.find-car .inner h4 {
+    margin: 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #050B20;
+}
+
+section.find-car .inner:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+    background-color: #181059;
+    padding: 3rem 0 0;
+}
+
+footer .headd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .headd img:first-child {
+    width: 239px;
+}
+
+footer .headd img:last-child {
+    width: 320px;
+}
+
+footer .bodyy ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0 6.5rem;
+    justify-content: center;
+}
+
+footer .bodyy ul li a {
+    color: #fff;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+footer .bodyy {
+    margin: 4rem 0 0;
+    border-top: 1px solid #ffffff1a;
+    border-bottom: 1px solid #ffffff1a;
+    padding: 30px 0;
+}
+
+footer .footerr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 30px;
+}
+
+footer .footerr p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 0;
+  color: #fff;
+}
+
+section.about {
+    background-color: #f5faff;
+    padding: 4rem 0;
+}
+
+section.about .content h2 {
+    position: relative;
+    font-family: Noto Sans Georgian;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000000;
+    margin: 0 0 3rem;
+}
+
+section.about .content h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #FF4723;
+    width: 60px;
+    height: 2px;
+    bottom: -14px;
+}
+
+section.about .content p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+section.about .content {
+    margin: 0 0 4rem;
+}
+
+.valuess .inner {
+    text-align: left;
+    border: 1px solid #0000001A;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 22px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.valuess .inner h5 {
+    font-family: Noto Sans Georgian;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin: 0;
+}
+
+.valuess .inner p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin: 0;
+}
+
+section.thousand-dollars {
+    background-image: url(../images/thousand-bg.png);
+    width: 100%;
+    height: 392px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 48px 0;
+}
+
+section.thousand-dollars .row {
+    justify-content: center;
+}
+
+
+section.thousand-dollars .inner h3 {
+    font-family: Noto Sans Georgian;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: center;
+}
+
+section.thousand-dollars .inner {
+    text-align: center;
+}
+
+section.thousand-dollars .inner p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: center;
+    color: #888888;
+}
+
+section.thousand-dollars .inner .input-switcher {
+    margin: 30px 0 20px !important;
+}
+
+section.thousand-dollars .inner .input-switcher .switcher {
+    place-self: center;
+}
+
+.history-reporttt {
+    margin: 4rem 0 0;
+}
+
+.history-reporttt h2 {
+    font-family: Noto Sans Georgian;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000;
+    position: relative;
+    margin: 0 0 2rem;
+}
+
+.history-reporttt p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #000;
+}
+
+.history-reporttt ul {
+    margin: 2rem 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 60%;
+    gap: 20px 0;
+}
+
+.history-reporttt ul li {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #181059;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+
+
+section.pricingg .sample-reporttt {
+    margin-top: 2rem;
+}
+
+section.pricingg .sample-reporttt .content.repeated {
+    border: unset;
+    box-shadow: unset;
+    border-radius: unset;
+    padding: unset;
+    padding-left: 3rem;
+}
+
+section.pricingg .sample-reporttt .content.repeated a {
+    gap: 0 10px !important;
+    width: unset;
+    padding: 14px 28px;
+    display: inline-flex;
+    height: unset;
+    background-color: #8835C3;
+    color: #fff;
+}
+
+section.pricingg .sample-reporttt .content.repeated a svg {
+    position: unset;
+}
+
+section.pricingg .sample-reporttt .row {
+    align-items: center;
+}
+
+section.pricingg {
+    background-image: linear-gradient(to top, #fcf6ff, #f9f7ff, #f7f8ff, #f6f9ff, #f5faff);
+    padding: 4rem 0;
+    position: relative;
+}
+
+section.login {
+    padding: 6rem 0;
+    background-color: #f0f1f5;
+    text-align: center;
+}
+
+
+
+section.login .row {
+    justify-content: center;
+}
+
+section.login .inner .logooo {
+    background-image: url(../images/form-bg.jpg);
+    width: 100%;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    margin: 0 0 -50px;
+    padding: 5rem 0 0;
+}
+
+section.login .inner .content {
+    background-color: #fff;
+    padding: 3rem 20px 20px;
+    margin: 0px 0 0;
+    border-radius: 50px 0 0 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+section.login .inner .content h5 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Noto Sans Georgian;
+    font-weight: 500;
+}
+
+
+section.login .inner .content form {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px 0px;
+}
+
+section.login .inner .content input::placeholder {
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+section.login .inner .content button {
+    gap: 0 10px !important;
+    width: 100%;
+    display: flex;
+    background-color: #8835C3;
+    color: #fff;
+    justify-content: center;
+    padding: 12px 22px;
+    height: unset;
+    align-items: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: center;
+}
+
+section.login .inner .logooo img {
+    width: 140px;
+}
+
+
+section.signup  .logooo {
+    height: 190px !important;
+    padding: 50px 0 0 !important;
+}
+
+section.signup .logooo h5 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: Noto Sans Georgian;
+    font-weight: 500;
+}
+
+
+section.signup .content {
+    padding-top: 1rem !important;
+}
+
+    .table-container {
+        max-width: 1000px;
+        margin: 20px auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .table-header {
+        display: flex;
+        background-color: #f0f0f0;
+        padding: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .column {
+        flex: 1;
+        padding: 10px;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        color: #2F3942;
+    }
+
+    .table-row {
+        display: flex;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    .table-row:nth-child(odd) {
+        background-color: #e8e7e7;
+    }
+
+    .row-data {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        gap: 0 20px;
+    }
+
+    .img-placeholder {
+        font-weight: bold;
+        color: #d00;
+    }
+
+    .date {
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 19px;
+        text-align: left;
+        color: #000;
+    }
+
+    .lot-number {
+        font-size: 12.75px;
+        font-weight: 900;
+        line-height: 19px;
+        color: #0D6EFD;
+        font-family: 'Inter';
+        width: 100%;
+        text-align: center;
+    }
+
+    .price {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .status {
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .sold {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .not-sold {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+        .table-header, .table-row {
+            flex-direction: column;
+        }
+
+        .row-data {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .lot-number, .price, .status {
+            margin-top: 10px;
+        }
+    }
+
+    .report-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      border-spacing: 0 15px;
+    }
+
+    .report-table th, 
+    .report-table td {
+      vertical-align: middle;
+      font-family: Inter;
+      font-size: 15.13px;
+      font-weight: 500;
+      line-height: 19px;
+    }
+
+    .report-table th {
+      background-color: #eaeaea;
+      font-weight: bold;
+    }
+
+    .report-table tbody tr:nth-child(even) {
+      background-color: #f0f0f0; /* Alternate row background */
+    }
+
+    .report-table ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    .report-table tbody tr {
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .report-table thead {
+        display: none;
+      }
+      
+      .report-table tbody tr {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      .report-table td {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+        position: relative;
+        border: none;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      .report-table td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      .report-table tbody tr td:first-child {
+        border-top: 1px solid #ddd;
+      }
+    }
+
+
+    .detail-history table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .detail-history th, .detail-history td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd; /* Add border to each cell */
+        }
+        .detail-history th {
+            background-color: #f2f2f2; /* Header background */
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19px;
+            text-align: left;
+            color: #2F3942;
+            text-transform: uppercase;
+        }
+        .detail-history tr:nth-child(even) {
+            background-color: #f0f0f0; /* Alternate row background color */
+        }
+        .detail-history tr:hover {
+            background-color: #f5f5f5; /* Hover effect */
+        }
+        @media screen and (max-width: 768px) {
+            .detail-history, .detail-history thead, .detail-history tbody, .detail-history th, .detail-history td, .detail-history tr {
+                display: block;
+            }
+            .detail-history th {
+                display: none;
+            }
+            .detail-history td {
+                position: relative;
+                padding-left: 50%;
+                text-align: right;
+            }
+            .detail-history td:before {
+                content: attr(data-label);
+                position: absolute;
+                left: 0;
+                width: 50%;
+                padding-left: 10px;
+                font-weight: bold;
+                text-align: left;
+            }
+        }
+
+.vehicle-sample-report .title h4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    color: #000;
+}
+
+.vehicle-sample-report .title h4::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 0;
+    width: 100%;
+    background-color: #8835C3;
+    height: 1px;
+}
+
+.vehicle-sample-report .title h4::before {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    background-color: #8835C3;
+    height: 1px;
+}
+
+.report-content {
+    margin: 2rem 0 0;
+}
+
+.report-top {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.report-top .text h5 {
+    font-family: Inter;
+    font-size: 35.72px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: left;
+    color: #2F3942;
+    margin: 0 0 1rem;
+}
+
+
+
+.report-top .text p {
+    font-family: Inter;
+    font-size: 16.31px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #AEA8A8;
+    margin: 0;
+}
+
+.report-top .text h6 {
+    font-family: Inter;
+    font-size: 22.88px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #2F3942;
+}
+
+.report-body .inner {
+    box-shadow: 0px 0px 5px 2px #AEA8A833;
+    background: #FFFFFF01;
+    border-radius: 5px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.report-body .row {
+    gap: 26px 0;
+}
+
+.report-body .inner h6 {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #2F3942;
+    margin: 0 0 2rem;
+}
+
+.report-body .inner p {
+    font-family: Inter;
+    font-size: 11.81px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: center;
+    color: #2F3942;
+}
+
+.report-body .inner img {
+    margin: 0 0 1rem;
+}
+
+.report-body {
+    margin: 4rem 0 0;
+}
+
+.report-body .col-md-3:nth-child(4) .inner {border-color: #EC2121;}
+
+.report-body .col-md-3:nth-child(5) .inner {
+    border-color: #EC2121;
+}
+
+.report-body .col-md-3:nth-child(8) .inner {
+    border-color: #EC2121;
+}
+
+.report-body .col-md-3:nth-child(7) .inner {
+    border-color: #EC2121;
+}
+
+.report-body .col-md-3:nth-child(9) .inner {
+    border-color: #EC2121;
+}
+
+.report-body .col-md-3:nth-child(10) .inner {
+    border-color: #EC2121;
+}
+.report-body .col-md-3:nth-child(11) .inner {
+    border-color: #EC2121;
+}
+
+.vehicle-detail {
+    margin: 4rem 0 0;
+}
+
+.universal h5 {
+    position: relative;
+    display: inline-flex;
+    font-family: Inter;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
+    align-items: center;
+    gap: 0 16px;
+}
+
+.report-body .col-md-3:nth-child(7) .inner {
+    border-color: #EC2121;
+};
+.report-body .col-md-3:nth-child(7) .inner {
+    border-color: #EC2121;
+};
+.report-body .col-md-3:nth-child(7) .inner {
+    border-color: #EC2121;
+};
+.report-body .col-md-3:nth-child(7) .inner {
+    border-color: #EC2121;
+};
+.report-body .col-md-3:nth-child(7) .inner {
+    border-color: #EC2121;
+};
+.report-body .col-md-3:nth-child(7) .inner {
+    border-color: #EC2121;
+};
+.report-body .col-md-3:nth-child(7) .inner {
+    border-color: #EC2121;
+};
+.report-body .col-md-3:nth-child(7) .inner {
+    border-color: #EC2121;
+};
+
+
+.universal h5::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    background-color: #8835C3;
+    height: 1px;
+}
+
+.universal h5::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    background-color: #8835C3;
+    height: 1px;
+}
+
+section.sample-report {
+    padding: 8rem 0 0;
+}
+
+.universal {
+    margin: 0 0 3rem;
+}
+
+
+.vehicle-detail .content .inner {
+    border: 1px solid #2F3942;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 140px;
+    justify-content: center;
+}
+
+.vehicle-detail .content .inner img {
+    margin: -16px 0 10px;
+    background-color: #fff;
+    padding: 0 8px;
+}
+
+.vehicle-detail .content .inner p {
+    font-family: Inter;
+    font-size: 14.5px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    color: #2F3942;
+}
+
+.vehicle-detail .content .inner h6 {
+    font-family: Inter;
+    font-size: 15.5px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    color: #2F3942;
+}
+
+.vehicle-detail .content .row {
+    gap: 40px 0;
+}
+
+.photoo {
+    margin: 4rem 0 0;
+}
+
+
+.universal p {
+    margin: 1rem 0 0;
+    font-family: Inter;
+    font-size: 17.16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #2F3942;
+    line-height: 30px;
+}
+
+.universal p strong {
+    font-weight: 500;
+}
+
+.photoo .img img {
+    width: 100%;
+}
+
+.photoo .row {
+    gap: 30px 0;
+}
+
+.photo-btn {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    gap: 0 20px;
+}
+
+.photo-btn button {
+    width: 175px;
+    height: 35px;
+    top: 919.96px;
+    left: 255.3px;
+    gap: 0px;
+    border-radius: 5px;
+    border: unset;
+}
+
+.photo-btn button svg {
+    color: #2f39427a;
+}
+
+.auction-history {
+    margin: 4rem 0 0;
+}
+
+
+
+.auction-history .table-container .table-row:nth-child(1) 
+ .row-data:nth-child(3) {
+    opacity: 0;
+}
+
+.table-row .row-data:last-child {
+    justify-content: end;
+}
+
+.table-row .row-data:last-child .status {
+    width: 90px;
+    border-radius: 10px 10px 10px 0px;  
+}
+
+.ownership-history {
+    margin: 4rem 0 0;
+}
+
+.ownership-history .owner-list {
+    text-align: center;
+    box-shadow: 2px 2px 2px 0px #00000026;
+    border: 1px solid #00000020;
+}
+
+.ownership-history .owner-list .head {
+    margin: -22px 0 0;
+    display: inline-block;
+    background: #fff;
+    border-bottom: 1px solid #2F3942;
+    box-shadow: 2px 0 2px 0px #00000026;
+    padding: 0 10px;
+}
+
+.ownership-history .owner-list .bodyy {
+    margin: 2rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    padding: 0 0 10px;
+}
+
+.ownership-history .owner-list .bodyy .all-owners h5 {
+    color: #AEA8A8;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+
+.ownership-history .owner-list .bodyy .all-owners h6 {
+    font-family: Inter;
+    font-size: 16.88px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    color: #2F3942;
+}
+
+.detail-damage-history {
+    margin: 5rem 0 0;
+}
+
+.detail-damage-history .universal h5::after {
+    content: unset;
+}
+
+.detail-damage-history .universal h5::before {
+    content: unset;
+}
+
+.detail-damage-history .universal {
+    text-align: center;
+}
+
+.detail-damage-history .universal h5 {
+    margin: 0 0 10px;
+}
+
+
+.report-table thead tbody tr:first-child td {
+    border-top: 1px solid #000;
+}
+
+.report-table tbody tr:first-child td {
+    width: 70px;
+}
+
+
+.detail-history .content .detail-history-top h6 {
+    color: #2F3942;
+    font-family: Inter;
+    font-size: 17.44px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.detail-history .content .detail-history-top {
+    text-align: center;
+    margin: 0 0 3rem;
+}
+
+.detail-history {
+    margin: 5rem 0 0;
+}
+
+.vehicle-sample-report p.endd {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #2F3942;
+    margin: 50px 0 50px;
+}
+
+
+.another-vehicle {
+    padding: 0 0 7em;
+}
+
+section.pricing.pricingg .car-design {
+    position: absolute;
+    top: 37%;
+    right: 0;
+    width: 400px;
+}
+
+.history-reporttt h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #FF4723;
+    width: 60px;
+    height: 2px;
+    bottom: -14px;
+}
+
+
+section.vehicle-history .content img {
+    width: 85%;
+}
+
+section.vehicle-history .content {
+    text-align: center;
+}
+
+section.vehicle-history h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    font-family: "Noto Sans Georgian";
+    color: #000;
+    margin: 0 0 2rem;
+}
+
+section.vehicle-history p {
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #8835C3;
+    margin: 0 0 2rem;
+}
+
+
+section.vehicle-history .bg-color {
+    height: 600px;
+    padding-top: 5rem;
+}
+
+section.pricing {
+    padding: 4rem 0 5rem;
+}
+
+section.vh-premium {
+    padding: 11rem 0 0;
+}
+
+section.vh-premium .inner h2 {
+    font-family: 'Noto Sans Georgian';
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000;
+    position: relative;
+    margin: 0 0 1rem;
+}
+
+section.vh-premium .inner h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #FF4723;
+    width: 60px;
+    height: 2px;
+    bottom: -14px;
+}
+
+section.vh-premium .inner ul {
+    padding: 0;
+    margin: 2.2rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+section.vh-premium .inner ul li {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #8A8A8A;
+    display: flex;
+    align-items: self-start;
+    gap: 0 12px;
+}
+
+section.vh-premium .inner ul li img {
+    margin: 6px 0 0;
+}
+
+section.vh-premium .row {
+    align-items: center;
+    gap: 40px 0;
+}
+
+section.sample-record.twoo {
+    background-image: unset;
+    padding-bottom: 4rem;
+}
+
+section.sample-record.twoo .content h2 {
+    font-family: Noto Sans Georgian;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000;
+    position: relative;
+    margin: 0 0 1.5rem;
+}
+
+section.sample-record.twoo p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+section.sample-record.twoo .content h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #FF4723;
+    width: 60px;
+    height: 2px;
+    bottom: -14px;
+}
+
+section.sample-record.twoo ul {
+    margin: 0;
+    padding: 0;
+    gap: 10px 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section.sample-record.twoo ul li {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #181059;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+section.sample-record.twoo ul li img {
+    width: unset;
+}
+
+@media (max-width: 600px) {
+  .two-column-list {
+    grid-template-columns: 1fr; /* Switch to one column on smaller screens */
+  }
+}
+
+section.chaypi img {
+    width: 100%;
+}
+
+
+
+section.chaypi-two img {width: 100%;}
+
+section.chaypi {
+    padding: 0 0 6rem;
+}
+
+section.chaypi-three img {
+    width: 100%;
+}
+
+section.chaypi-two {
+    padding: 0 0 3rem;
+}
+
+section.chaypi-three {
+    padding: 0 0 4rem;
+}
+
+  header .navbar-nav li a.active {
+    color: #8835c3 !important;
+}
+
+section.nmvtis .inner {
+    background-color: #faf4ff;
+    padding: 60px 30px 20px;
+    border-radius: 30px;
+}
+
+section.nmvtis h2 {
+    font-family: Noto Sans Georgian;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000;
+    margin: 0 0 2rem;
+    position: relative;
+}
+
+section.nmvtis p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+section.nmvtis h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #FF4723;
+    width: 70px;
+    height: 2px;
+    bottom: -14px;
+}
+
+section.nmvtis .col-md-5 img {
+    width: 430px;
+    height: 192px;
+    object-fit: cover;
+}
+
+section.nmvtis .row {
+    align-items: center;
+}
+
+section.nmvtis {
+    padding: 0 0 5rem;
+}
+
+section.cta {
+    background-color: #8835C3;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+section.cta p {
+    font-family: Noto Sans Georgian;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #fff;
+}
+
+
+
+section.cta .container a:last-child {
+    width: unset;
+    padding: 14px 28px;
+    display: inline-block !important;
+    height: unset;
+    background-color: #8835C3;
+    color: #fff;
+    font-family: Inter;
+    text-decoration: underline !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+section.cta .container a {
+    display: flex;
+    background-color: #ffffff;
+    width: 200px;
+    height: 60px;
+    margin: 0px auto 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    gap: 0 10px !important;
+    text-align: center;
+    color: #8835C3;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+section.people .inner {
+    height: 100%;
+}
+
+section.people .inner .content {display: flex;flex-direction: column;align-items: center;justify-content: center;height: 100%;}
+
+section.people .img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+section.people .inner .content p {
+    font-family: Noto Sans Georgian;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    padding: 1px 19rem;
+}
+
+section.people .inner .content img {
+    margin: 0 0 1rem;
+}
+
+section.people .content a {
+    display: flex;
+    background-color: #8835C3;
+    width: 200px;
+    height: 60px;
+    margin: 10px auto 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    gap: 0 10px !important;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+section.people {
+    background-image: url(../images/people.png);
+    width: 100%;
+    height: 534px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-switchers {
+    padding: 15rem 0 0;
+    width: 86%;
+    margin: 0 auto;
+}
+
+.section-switchers li a {
+    border-bottom: 1px solid #2F3942;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    color: #2F3942;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 0 0 15px;
+    transition: all 0.5s;
+}
+
+.section-switchers ul {
+    margin: 0;
+    padding: 0 0 0 0px;
+    box-shadow: rgb(99 99 99 / 23%) 0px 2px 8px 0px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.section-switchers li:last-child a {border-color: transparent;}
+
+.section-switchers li svg {
+    font-size: 26px;
+}
+
+.section-switchers li a:hover {
+    background-color: #f5f5f5;
+}
+
+section.pricingg .sample-reporttt img {
+    width: 100%;
+}
+
+
+
+section.nmvtis .col-md-4 img {
+    width: 100%;
+}
+
+.lang-signup button select {
+    font-family: 'Inter';
+    border: unset;
+    outline: unset;
+    font-weight: 500;
+}
+
+
+section.login .inner {
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    box-shadow: rgb(100 100 111 / 12%) 0px 7px 29px 0px;
+    border-radius: 15px;
+    padding: 0 70px 40px;
+    margin: 0 0 1rem;
+}
+
+section.login .row {
+    justify-content: center;
+}
+
+section.login .img {
+    margin: -40px 0 0;
+    position: relative;
+}
+
+section.login .img img {
+    transition: all 0.5s;
+    width: 110px;
+}
+
+section.login .content h3 {
+    position: relative;
+}
+
+section.login .content h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 90px;
+    height: 2px;
+    background-color: #dc143c;
+    bottom: -28px;
+    right: 0;
+    margin: 0 auto;
+}
+
+section.login .content p {font-family: Inter;font-size: 18px;font-weight: 500;line-height: 28px;}
+
+section.login .content form .flexx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #cecece;
+    overflow: hidden;
+    border-radius: 60px;
+    padding: 12px 22px;
+    width: 100%;
+}
+
+
+section.login .content form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 16px 0;
+}
+
+section.login .content form .flexx input {
+    width: 100%;
+    border: unset;
+    border-left: 1px solid #cecece;
+    margin-left: 12px;
+    padding-left: 12px;
+    outline: unset;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+section.login .content form .flexx input::placeholder {
+    color: #8d8d8d;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+section.login form button {
+    display: flex;
+    justify-content: center;
+    background-color: #6a0dad;
+    width: 100%;
+    color: #fff;
+    border-radius: 50px;
+    height: 48px;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    transition: all 0.5s;
+    border: 2px solid transparent;
+}
+
+section.login form button:hover {
+    border-color: #6a0dad;
+    background-color: transparent;
+    color: #6a0dad;
+}
+
+
+section.login a.forgot-password {
+    font-family: 'Inter';
+    font-weight: 500;
+    display: inline-flex;
+    font-size: 15px;
+}
+
+div#check-vehicle-records ul {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 11px 0;
+}
+
+div#check-vehicle-records ul li {
+    font-family: 'Inter';
+    font-size: 16px;
+    list-style: disc;
+}
+
+div#check-vehicle-records ul li strong {font-weight: 600;}
+
+section.login .inner h2 {
+    font-family: "Noto Sans Georgian";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section.checkout {padding: 6rem 0;}
+
+.checkout .form-container, .order-summary {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout h2 {
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: clamp(20px, 3vw, 20px) !important;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.checkout label {
+    display: block;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.checkout input, select {
+    width: 100%;
+    padding: 0 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: unset;
+    height: 46px;
+}
+
+.checkout select{
+    font-family: 'Inter';
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: unset;
+    height: 46px;
+    color: #585858;
+}
+
+.checkout p {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.checkout .payment-icons img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.checkout .order-summary p {
+    margin-bottom: 10px;
+}
+
+.checkout .order-summary h2:last-child {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.payment-method {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .payment-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #CFCFD1;
+    border-radius: 4px;
+    padding: 0 30px;
+  }
+  
+  .payment-option input[type="radio"] {
+    margin-right: 10px;
+    height: 26px;
+    max-width: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  
+  .card-logos {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .card-logos img {
+    width: 70px !important;
+    height: 70px !important;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+
+.payment-option img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+
+.checkout .order-summary p.boldd {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.checkout .order-summary p.boldd a {
+    color: #8835c3;
+    text-decoration: underline !important;
+}
+
+button#checkoutt {
+    width: 100%;
+    border: unset;
+    padding: 0;
+    height: 60px;
+    background-color: #007bff;
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+section.dedicated-customers .inner img {
+    width: 65px;
+}
+
+
+section.what-we-offer .content li span {
+    width: 22px;
+    height: 22px;
+    background-color: #8835c3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+section.what-we-offer .content li span svg {
+    color: #fff;
+}
+
+section.pricing .content ul li svg {
+    color: #ff4723;
+    font-size: 14px;
+}
+
+.headd div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.headd div a {
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: underline !important;
+}
+
+.report-body .inner span {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 0 1.5rem;
+}
+
+.report-body .inner span::before {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            border: 2px solid #8836bf;
+        }
+
+
+
+.report-body .inner span svg {
+    font-size: 30px;
+    position: relative;
+    z-index: 9;
+}
+
+.report-body .inner span::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    z-index: 1;
+    clip-path: polygon(
+    35% 0%, 65% 0%,       
+    65% 35%, 100% 35%,     
+    100% 65%, 65% 65%,    
+    65% 100%, 35% 100%,    
+    35% 65%, 0% 65%,       
+    0% 35%, 35% 35%       
+);
+}
+
+#vin {
+    border: 2px solid red; /* Red by default */
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+/* When VIN input is valid */
+#vin.valid {
+    border-color: green;
+}
+/* When VIN input is invalid */
+#vin.invalid {
+    border-color: red;
+}
+
+.redd  {
+    border: 2px solid transparent; /* Default border */
+}
+.redd .invalid {
+    border: 2px solid red; /* Red border for invalid input */
+}
+
+p#error-message-2 {
+    position: absolute;
+    bottom: -50px;
+    left: 10px;
+}
+
+.vehicle-detail .content .inner svg {
+    font-size: 20px;
+}
+
+.universal h5 svg {
+    font-size: 30px;
+}
+
+.ownership-history svg {
+    font-size: 20px;
+}
+
+
+
+div#detail-history .title svg {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.detail-damage-history.two.detail-history .title h6 svg {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+
+.detail-history .detail-history-top h6 svg {font-size: 20px;margin-right: 10px;}
