@@ -58,15 +58,15 @@
                                             <input type="radio" id="credit-card" name="payment-method">
                                             <label for="credit-card">Pay with Credit Card</label>
                                             <div class="card-logos">
-                                                <img src="{{ asseet('front/images/visaa.png') }}" alt="Visa">
-                                                <img src="{{ asseet('front/images/mastercard.png') }}" alt="MasterCard">
-                                                <img src="{{ asseet('front/images/amex.png') }}" alt="American Express">
+                                                <img src="{{ asset('front/images/visaa.png') }}" alt="Visa">
+                                                <img src="{{ asset('front/images/mastercard.png') }}" alt="MasterCard">
+                                                <img src="{{ asset('front/images/amex.png') }}" alt="American Express">
                                             </div>
                                         </div>
                                         <div class="payment-option">
                                             <input type="radio" id="paypal" name="payment-method">
                                             <label for="paypal">Pay with PayPal</label>
-                                            <img src="{{ asseet('front/images/paypal.png') }}" alt="PayPal">
+                                            <img src="{{ asset('front/images/paypal.png') }}" alt="PayPal">
                                         </div>
                                     </div>
                                     <button id="checkoutt">Proceed to Checkout</button>
@@ -79,11 +79,11 @@
                             <div class="order-summary">
                                 <h2>Order Summary</h2>
                                 <p class="boldd">3 Vehicle History Reports + 1 Lien Check <a href="{{ route('front.index') }}#change">Change</a> </p>
-                                <p><img src="{{ asseet('front/images/tick.png') }}"> Accident and damage history</p>
-                                <p><img src="{{ asseet('front/images/tick.png') }}"> Recall information</p>
-                                <p><img src="{{ asseet('front/images/tick.png') }}"> Free History-Based Value</p>
-                                <p><img src="{{ asseet('front/images/tick.png') }}"> Canadian lien search</p>
-                                <p><img src="{{ asseet('front/images/tick.png') }}"> Check multiple vehicles</p>
+                                <p><img src="{{ asset('front/images/tick.png') }}"> Accident and damage history</p>
+                                <p><img src="{{ asset('front/images/tick.png') }}"> Recall information</p>
+                                <p><img src="{{ asset('front/images/tick.png') }}"> Free History-Based Value</p>
+                                <p><img src="{{ asset('front/images/tick.png') }}"> Canadian lien search</p>
+                                <p><img src="{{ asset('front/images/tick.png') }}"> Check multiple vehicles</p>
                                 <h2>Order Total: $112.95</h2>
                             </div>
                         </div>
