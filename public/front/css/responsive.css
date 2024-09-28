@@ -1350,7 +1350,7 @@
     @media (max-width: 375px) {
 
         .trusted {
-            margin: 4rem 0 0;
+            margin: 4rem 0 0 !important;
         }
 
         section.people .inner .content p {
