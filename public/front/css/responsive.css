@@ -259,6 +259,16 @@
 
 
 @media (max-width: 769px) {
+
+    section.banner.vehicle-history .bg-color {
+        height: 29rem !important;
+        padding-top: 7rem !important;
+    }
+
+    section.banner .bg-color {
+        height: 49rem !important;
+        overflow: hidden;
+    }
     
     .report-top .text p {
         text-align: left !IMPORTANT;
@@ -271,13 +281,21 @@
         padding-top: 7rem;
     }
 
+    section.nmvtis p {
+        text-align: left !important;
+    }
+
+    section.sample-record.twoo p {
+        text-align: left !IMPORTANT;
+    }
+
     section.sample-report {
         padding-top: 8rem;
     }
 
     .navbar-collapse.collapse.show {
         backdrop-filter: blur(5px);
-        background-color: #00000017;
+        background-color: #ffffffcf;
     }
 
     .navbar-collapse{
@@ -543,8 +561,12 @@
         }
 
         .bg-color {
-            height: 750px;
+            height: 420px !important;
             padding-top: 7rem;
+        }
+
+        section.banner.vehicle-history {
+            padding-bottom: 1.5rem;
         }
 
         .trusted .col-md-4 {
@@ -556,7 +578,7 @@
         }
 
         .trusted {
-            margin: 7rem 0 0;
+            margin: 3rem 0 0;
         }
 
         .trusted .row {
@@ -670,10 +692,7 @@
             padding: 0 !important;
         }
 
-        section.vehicle-history .bg-color {
-            height: 100%;
-            padding-top: 7rem;
-        }
+
 
         section.vh-premium {
             padding: 3rem 0 0;
@@ -727,6 +746,20 @@
 
     @media (max-width: 480px) {
 
+        section.vh-premium {
+            padding: 1rem 0 0;
+        }
+
+        section.banner.vehicle-history .bg-color {
+            height: 21rem !important;
+        }
+
+        section.banner .bg-color {
+            height: 52rem !important;
+            overflow: hidden;
+            padding-top: 8rem !important;
+        }
+
         footer .headd img:last-child {
             width: 130px;
         }
@@ -736,14 +769,12 @@
         height: 18px;
     }
 
-        .bg-color {
-            height: 770px;
-            overflow: hidden;
-        }
 
         section.sample-record.twoo ul {
             grid-template-columns: repeat(2, 1fr);
         }
+
+
 
         .history-reporttt ul {
             gap: 6px 0;
@@ -864,11 +895,12 @@
 
         section.banner.vehicle-history {
             overflow: visible;
+            padding-bottom: 2rem;
         }
 
-        section.vehicle-history .bg-color {
-            padding-top: 7rem;
-            height: 380px;
+        .bg-color {
+            height: 285px !IMPORTANT;
+            padding-top: 6rem !important;
         }
 
         section.sample-report .col-md-4 {
@@ -1079,12 +1111,26 @@
 
         section.find-car .inner {
             height: 65px;
+            padding: 0 10px;
+        }
+
+        section.find-car .inner {
+            height: 65px;
+            padding: 0 10px;
+        }
+
+        section.find-car .inner h4 {
+            font-size: 13px;
         }
 
         section.find-car .inner img {
             width: 40px;
             height: 40px;
             object-fit: contain;
+        }
+
+        section.find-car .col-md-4{
+            width: 50%;
         }
 
         section.find-car {
@@ -1101,9 +1147,6 @@
             width: 100%;
         }
 
-        section.banner {
-            overflow: hidden;
-        }
 
         section.sample-record.twoo .content.repeated {
             align-items: start;
