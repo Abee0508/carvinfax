@@ -259,6 +259,73 @@
 
 
 @media (max-width: 769px) {
+    
+    .report-top .text p {
+        text-align: left !IMPORTANT;
+    }
+    section.about {
+        padding-top: 7rem;
+    }
+
+    section.pricing.pricingg {
+        padding-top: 7rem;
+    }
+
+    section.sample-report {
+        padding-top: 8rem;
+    }
+
+    .navbar-collapse.collapse.show {
+        backdrop-filter: blur(5px);
+        background-color: #00000017;
+    }
+
+    .navbar-collapse{
+        padding: 15px 20px;
+        border-radius: 14px;
+        transition: unset  !important;
+    }
+
+
+    .scrolled {
+        backdrop-filter: blur(5px);
+        transition: all 0.5s;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        z-index: 9999999;
+        transition: filter 0.5s ease, backdrop-filter 0.5s ease
+    }
+
+    footer .headd img:last-child {
+        width: 140px;
+    }
+
+    section.people .container {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        right: 0;
+        top: 280px;
+    }
+    section.people {
+        background-image: url(../images/people-two.png);
+        height: 313px;
+        position: relative;
+        margin: 30px 0 240px;
+    }
+
+    section.people .inner .content p {
+        font-size: 24px !important;
+        line-height: 38px !important;
+    }
+
+    section.people .inner .content img {
+        display: none;
+    }
 
     .detail-history td {
         padding-left: 0;
@@ -286,9 +353,6 @@
         gap: 60px 0;
     }
 
-    section.sample-report {
-        padding: 4rem 0 0;
-    }
 
     section.sample-report .col-md-8 {
         width: 100%;
@@ -434,6 +498,7 @@
             align-items: self-start;
             gap: 14px 36px;
             margin-top: 1rem;
+            margin-bottom: 1rem;
         }
 
         h1 {
@@ -479,6 +544,7 @@
 
         .bg-color {
             height: 750px;
+            padding-top: 7rem;
         }
 
         .trusted .col-md-4 {
@@ -606,6 +672,7 @@
 
         section.vehicle-history .bg-color {
             height: 100%;
+            padding-top: 7rem;
         }
 
         section.vh-premium {
@@ -659,6 +726,10 @@
 
 
     @media (max-width: 480px) {
+
+        footer .headd img:last-child {
+            width: 130px;
+        }
         
    section.vh-premium .inner ul li span {
         width: 18px;
@@ -725,10 +796,10 @@
         }
 
         .banner-content-bottom ul li img {
-            width: 394px;
+            width: 184px;
         }
 
-
+       
 
         section.what-we-offer .content img {
             width: 50px;
@@ -762,10 +833,7 @@
             font-size: 12px;
         }
 
-        section.people {
-            height: 280px;
-            background-image: unset;
-        }
+     
 
         section.pricing .content ul {
             margin: 8px 0 0;
@@ -799,8 +867,18 @@
         }
 
         section.vehicle-history .bg-color {
-            padding-top: 3rem;
-            height: 260px;
+            padding-top: 7rem;
+            height: 380px;
+        }
+
+        section.sample-report .col-md-4 {
+            width: 100%;
+            order: 2;
+        }
+
+        section.sample-report .col-md-8 {
+            width: 100%;
+            order: 1;
         }
 
         section.vehicle-history p {
@@ -824,9 +902,7 @@
             padding: 3rem 0 0;
         }
 
-        footer .headd img:last-child {
-            width: 400px;
-        }
+       
 
         .what-we-offer-title {
             text-align: center;
@@ -940,14 +1016,14 @@
 
         .row.order {
             flex-direction: column-reverse;
+            gap: 0 0 !important;
         }
 
         section.sample-report {
-            padding: 3rem 0 0;
+            padding-top: 8rem;
         }
-
         .report-top .text p {
-            text-align: center;
+            text-align: center !important;
         }
 
         .report-top .text h6 {
@@ -1121,6 +1197,11 @@
             order: 4;
         }
 
+        section.people .inner .content p {
+            font-size: 20px !important;
+            line-height: 32px !important;
+        }
+
     }
 
 
@@ -1186,14 +1267,19 @@
 
 
     @media (max-width: 375px) {
+
+        section.people .inner .content p {
+            font-size: 16px !important;
+            line-height: 28px !important;
+        }
         
         section.sample-record.twoo ul {
     gap: 12px 0;
 }
 
-        footer .headd img:last-child {
-            width: 100%;
-        }
+footer .headd img:last-child {
+    width: 130px;
+}
 
         .input-container select {
             width: 24%;

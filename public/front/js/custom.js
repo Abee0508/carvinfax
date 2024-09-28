@@ -1,5 +1,16 @@
+window.addEventListener('scroll', function() {
+  const header = document.getElementById('main-header');
+  
+  if (window.scrollY > 5) {
+      header.classList.add('scrolled'); // Add blur and brightness on scroll
+  } else {
+      header.classList.remove('scrolled'); // Remove it when at the top
+  }
+});
+
+
 // Function to validate VIN input
-function setupVinValidation(inputId, errorId) {
+ function setupVinValidation(inputId, errorId) {
   const vinInput = document.getElementById(inputId);
   const errorMessage = document.getElementById(errorId);
 
@@ -33,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
   setupVinValidation('vin', 'error-message-1'); // For the first input
   setupVinValidation('vinField', 'error-message-2'); // For the second input
 });
+
 
 
 

@@ -71,10 +71,10 @@
                             <div class="col-md-4 logos">
                                 <div class="row">
                                     <div class="col">
-                                        <img src="{{ asset('front/images/logo1.png') }}">
+                                        <img src="{{ asset('front/images/logo1.svg') }}">
                                     </div>
                                     <div class="col">
-                                        <img src="{{ asset('front/images/logo2.png') }}">
+                                        <img src="{{ asset('front/images/logo2.svg') }}">
                                     </div>
                                     <div class="col">
                                         <img src="{{ asset('front/images/logo3.png') }}">
@@ -83,10 +83,10 @@
                                         <img src="{{ asset('front/images/logo4.png') }}">
                                     </div>
                                     <div class="col">
-                                        <img src="{{ asset('front/images/logo5.png') }}">
+                                        <img src="{{ asset('front/images/logo5.svg') }}">
                                     </div>
                                     <div class="col">
-                                        <img src="{{ asset('front/images/logo6.png') }}">
+                                        <img src="{{ asset('front/images/logo6.svg') }}">
                                     </div>
                                 </div>
                             </div>
@@ -338,7 +338,7 @@
                                     report</h3>
                                 <p>Verify the VIN number and gain valuable insights before buying and selling a used
                                     car. Get started today for peace of mind and confidence in your investment.</p>
-                                <div id="vinInput" class="input-container active">
+                                <div id="vinInput" class="input-container active vinInput-index">
                                     <input type="text" placeholder="Enter your 17 character VIN">
                                     <button>Check your Car
                                         <svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false"
@@ -348,6 +348,7 @@
                                                   d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path>
                                         </svg>
                                     </button>
+                                    <p class="error-message-index" style="color:red; display:none;">VIN must be exactly 17 characters long.</p>
                                 </div>
                             </div>
                         </div>
@@ -369,7 +370,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.lexus.com/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car1.1.png') }}">
+                                        <img src="{{ asset('front/images/car1.1.webp') }}">
                                         <h4>Lexus</h4>
                                     </div>
                                 </a>
@@ -379,7 +380,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.mercedes-benz.com/en/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car22.png') }}">
+                                        <img src="{{ asset('front/images/car22.webp') }}">
                                         <h4>Mercedes-Benz</h4>
                                     </div>
                                 </a>
@@ -388,7 +389,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.volvocars.com/sg/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car3.png') }}">
+                                        <img src="{{ asset('front/images/car3.webp') }}">
                                         <h4>Volvo</h4>
                                     </div>
                                 </a>
@@ -397,7 +398,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.bmw.com/en/index.html" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car4.png') }}">
+                                        <img src="{{ asset('front/images/car4.webp') }}">
                                         <h4>BMW</h4>
                                     </div>
                                 </a>
@@ -406,7 +407,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.infiniti.com/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car5.png') }}">
+                                        <img src="{{ asset('front/images/car5.webp') }}">
                                         <h4>Infiniti</h4>
                                     </div>
                                 </a>
@@ -415,7 +416,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.audi.com/en.html" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car6.png') }}">
+                                        <img src="{{ asset('front/images/car6.webp') }}">
                                         <h4>Audi AG</h4>
                                     </div>
                                 </a>
@@ -424,7 +425,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.subaru.com/index.html" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car7.png') }}">
+                                        <img src="{{ asset('front/images/car7.webp') }}">
                                         <h4>Subaru</h4>
                                     </div>
                                 </a>
@@ -433,7 +434,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.nissan-global.com/EN/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car8.png') }}">
+                                        <img src="{{ asset('front/images/car8.webp') }}">
                                         <h4>Nissan Motor</h4>
                                     </div>
                                 </a>
@@ -442,7 +443,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.chevrolet.com/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car9.png') }}">
+                                        <img src="{{ asset('front/images/car9.webp') }}">
                                         <h4>Chevrolet</h4>
                                     </div>
                                 </a>
@@ -451,7 +452,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.porsche.com/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car10.png') }}">
+                                        <img src="{{ asset('front/images/car10.webp') }}">
                                         <h4>Porsche AG</h4>
                                     </div>
                                 </a>
@@ -460,7 +461,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.mazda.com/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car11.png') }}">
+                                        <img src="{{ asset('front/images/car11.webp') }}">
                                         <h4>Mazda</h4>
                                     </div>
                                 </a>
@@ -469,7 +470,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.hyundai.com/worldwide/en" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car12.png') }}">
+                                        <img src="{{ asset('front/images/car12.webp') }}">
                                         <h4>Hyundai Motor</h4>
                                     </div>
                                 </a>
@@ -478,7 +479,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.landrover.com/market-selector/index.html" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car13.png') }}">
+                                        <img src="{{ asset('front/images/car13.webp') }}">
                                         <h4>Land Rover</h4>
                                     </div>
                                 </a>
@@ -487,7 +488,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.acura.com/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car14.png') }}">
+                                        <img src="{{ asset('front/images/car14.webp') }}">
                                         <h4>Acura</h4>
                                     </div>
                                 </a>
@@ -496,7 +497,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.cadillac.com/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car15.png') }}">
+                                        <img src="{{ asset('front/images/car15.webp') }}">
                                         <h4>Cadillac</h4>
                                     </div>
                                 </a>
@@ -505,7 +506,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.tesla.com/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car16.png') }}">
+                                        <img src="{{ asset('front/images/car16.webp') }}">
                                         <h4>Tesla</h4>
                                     </div>
                                 </a>
@@ -514,7 +515,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.mitsubishicars.com/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car17.png') }}">
+                                        <img src="{{ asset('front/images/car17.webp') }}">
                                         <h4>Mitsubishi</h4>
                                     </div>
                                 </a>
@@ -523,7 +524,7 @@
                             <div class="col-md-4">
                                 <a href="https://www.toyota.com/" target="_blank">
                                     <div class="inner">
-                                        <img src="{{ asset('front/images/car18.png') }}">
+                                        <img src="{{ asset('front/images/car18.webp') }}">
                                         <h4>Toyota</h4>
                                     </div>
                                 </a>

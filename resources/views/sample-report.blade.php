@@ -257,7 +257,7 @@
 
                                             <div class="table-row">
                                                 <div class="row-data">
-                                                    <span class="img-placeholder"><img src="{{ asset('front/images/sale-histroy.webp') }}"></span>
+                                                    <span class="img-placeholder"><img src="{{ asset('front/images/sale-histroy.png') }}"></span>
                                                     <div class="info">
                                                         <span class="date">25 Oct 2021</span>
 
@@ -274,7 +274,7 @@
 
                                             <div class="table-row">
                                                 <div class="row-data">
-                                                    <span class="img-placeholder"><img src="{{ asset('front/images/sale-histroy.webp') }}"></span>
+                                                    <span class="img-placeholder"><img src="{{ asset('front/images/sale-histroy.png') }}"></span>
                                                     <div class="info">
                                                         <span class="date">17 Feb 2021</span>
                                                     </div>
@@ -290,7 +290,7 @@
 
                                             <div class="table-row">
                                                 <div class="row-data">
-                                                    <span class="img-placeholder"><img src="{{ asset('front/images/sale-histroy.webp') }}"></span>
+                                                    <span class="img-placeholder"><img src="{{ asset('front/images/sale-histroy.png') }}"></span>
                                                     <div class="info">
                                                         <span class="date">10 Feb 2021</span>
                                                     </div>

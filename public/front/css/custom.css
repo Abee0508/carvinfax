@@ -860,7 +860,7 @@ footer .headd img:first-child {
 }
 
 footer .headd img:last-child {
-    width: 320px;
+    width: 220px;
 }
 
 footer .bodyy ul {
@@ -2727,4 +2727,18 @@ section.vh-premium .inner ul li span {
 section.vh-premium li span svg {
     color: #fff;
 }
-    
+
+span.navbar-toggler-icon {
+    background-image: url(../images/hamburger.png);
+    width: 30px;
+    height: 30px;
+}
+
+button.navbar-toggler {
+    padding: 4px 8px;
+    border: unset;
+}
+
+.navbar-toggler:focus {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}

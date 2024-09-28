@@ -42,7 +42,7 @@
 </head>
 <body>
 
-<header>
+<header id="main-header">
     <div class="container">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -102,7 +102,7 @@
                 <img src="{{ asset('front/images/logo-white.png') }}">
                 <a href="mailto:support@carvinfax.com">support@carvinfax.com</a>
             </div>
-            <img src="{{ asset('front/images/footer-imgg.png') }}">
+            <img src="{{ asset('front/images/footer-imgg.svg') }}">
         </div>
         <div class="bodyy">
             <ul>
