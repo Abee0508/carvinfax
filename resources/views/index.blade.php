@@ -334,7 +334,7 @@
                     <div class="history-report">
                         <div class="row">
                             <div class="col-md-6">
-                                <h3><span>Starting from </span><span class="fntt">$100*</span><br>for a vehicle history
+                                <h3><span>Starting from </span><span class="fntt">$100<sup>*</sup></span><br>for a vehicle history
                                     report</h3>
                                 <p>Verify the VIN number and gain valuable insights before buying and selling a used
                                     car. Get started today for peace of mind and confidence in your investment.</p>

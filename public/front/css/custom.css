@@ -94,6 +94,7 @@ div#navbarCollapse {
 .input-container {
     display: none;
     align-items: center;
+    border: 2px solid #FF4723;
     border-radius: 50px;
     padding: 0 4px 0 0;
     background-color: #fff;
@@ -857,7 +858,7 @@ footer .headd {
 }
 
 footer .headd img:first-child {
-    width: 239px;
+    width: 150px;
 }
 
 footer .headd img:last-child {
