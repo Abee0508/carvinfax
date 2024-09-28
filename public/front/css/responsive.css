@@ -272,8 +272,8 @@
     }
 
     section.banner.vehicle-history .bg-color {
-        height: 29rem !important;
-        padding-top: 7rem !important;
+        height: 25rem !important;
+        padding-top: 4rem !important;
     }
 
     section.banner .bg-color {
@@ -761,6 +761,7 @@
 
         section.banner.vehicle-history .bg-color {
             height: 21rem !important;
+            padding-top: 3rem !important;!Im;!I;!;!I;!;
         }
 
         section.banner .bg-color {
