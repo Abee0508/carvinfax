@@ -431,7 +431,7 @@
                                                         </div>
 
                                                         <div class="all-owners damage-location">
-                                                            <img src="{{ asset('front/images/damage1.png') }}">
+                                                            <img src="{{ asset('front/images/damage1.svg') }}">
                                                         </div>
 
                                                     </div>
@@ -459,7 +459,7 @@
                                                         </div>
 
                                                         <div class="all-owners damage-location">
-                                                            <img src="{{ asset('front/images/damage2.png') }}">
+                                                            <img src="{{ asset('front/images/damage2.svg') }}">
                                                         </div>
 
                                                     </div>

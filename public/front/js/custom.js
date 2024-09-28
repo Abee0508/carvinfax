@@ -1,12 +1,3 @@
-window.addEventListener('scroll', function() {
-  const header = document.getElementById('main-header');
-  
-  if (window.scrollY > 5) {
-      header.classList.add('scrolled'); // Add blur and brightness on scroll
-  } else {
-      header.classList.remove('scrolled'); // Remove it when at the top
-  }
-});
 
 
 // Function to validate VIN input

@@ -260,6 +260,17 @@
 
 @media (max-width: 769px) {
 
+    footer .headd img:first-child {
+        width: 100px;
+    }
+
+    .banner-img img.abs {
+        position: absolute;
+        top: 10%;
+        right: 25%;
+        width: 160px;
+    }
+
     section.banner.vehicle-history .bg-color {
         height: 29rem !important;
         padding-top: 7rem !important;
@@ -290,7 +301,7 @@
     }
 
     section.sample-report {
-        padding-top: 8rem;
+        padding-top: 4rem;
     }
 
     .navbar-collapse.collapse.show {
@@ -304,19 +315,6 @@
         transition: unset  !important;
     }
 
-
-    .scrolled {
-        backdrop-filter: blur(5px);
-        transition: all 0.5s;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
-
-    header {
-        position: fixed;
-        width: 100%;
-        z-index: 9999999;
-        transition: filter 0.5s ease, backdrop-filter 0.5s ease
-    }
 
     footer .headd img:last-child {
         width: 140px;
@@ -710,6 +708,10 @@
         section.login .col-md-8 {
             width: 100%;
         }
+
+        .col-md-4.logos {
+            text-align: center;
+        }
     }
 
 
@@ -746,6 +748,13 @@
 
     @media (max-width: 480px) {
 
+        .banner-img img.abs {
+            position: absolute;
+            top: 11%;
+            right: 9%;
+            width: 160px;
+        }
+
         section.vh-premium {
             padding: 1rem 0 0;
         }
@@ -755,9 +764,9 @@
         }
 
         section.banner .bg-color {
-            height: 52rem !important;
+            height: 43rem !important;
             overflow: hidden;
-            padding-top: 8rem !important;
+            padding-top: 4rem !important;
         }
 
         footer .headd img:last-child {
@@ -827,7 +836,7 @@
         }
 
         .banner-content-bottom ul li img {
-            width: 184px;
+            width: 399px;
         }
 
        
@@ -842,7 +851,7 @@
 
         .banner-img {
             text-align: center;
-            padding-top: 4rem;
+            padding-top: 0;
         }
 
         .history-report {
@@ -1068,7 +1077,7 @@
         }
 
         section.sample-report {
-            padding-top: 8rem;
+            padding-top: 4rem;
         }
         .report-top .text p {
             text-align: center !important;
@@ -1411,6 +1420,17 @@ footer .headd img:last-child {
 
         .history-report .row {
             top: 250px;
+        }
+
+        footer .headd {
+            gap: 30px 0;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .headd div {
+            flex-direction: column;
+            gap: 16px 0px;
         }
     }
 

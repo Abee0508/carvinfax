@@ -102,7 +102,10 @@
                 <img src="{{ asset('front/images/logo-white.png') }}">
                 <a href="mailto:support@carvinfax.com">support@carvinfax.com</a>
             </div>
+            <div>
             <img src="{{ asset('front/images/footer-imgg.svg') }}">
+            <img src="{{ asset('front/images/logooooo.png') }}">
+            </div>
         </div>
         <div class="bodyy">
             <ul>

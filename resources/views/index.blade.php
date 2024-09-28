@@ -47,7 +47,7 @@
                                             <li><a href="{{ route('front.sample.report') }}">View a sample report</a></li>
                                         </ul>
                                         <ul>
-                                            <li><img src="{{ asset('front/images/banner-bottom-img.png') }}"></li>
+                                            <li><img src="{{ asset('front/images/banner-bottom-img.svg') }}"></li>
                                         </ul>
                                     </div>
 
@@ -323,7 +323,7 @@
 
                             <div class="col-md-3">
                                 <div class="inner">
-                                    <img src="{{ asset('front/images/dedi-icon3.png') }}">
+                                    <img src="{{ asset('front/images/dedi-icon3.svg') }}">
                                     <h4>24/7</h4>
                                     <p>Chat Availability</p>
                                 </div>
