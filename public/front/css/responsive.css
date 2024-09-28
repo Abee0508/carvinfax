@@ -846,9 +846,25 @@
         }
 
         .history-report {
+            position: relative;
+            overflow: visible;
+            height: 310px;
+            background-position: right;
+        }
 
-            background-color: #F7ECFF;
-            background-image: unset;
+
+        .history-report .row {
+            position: absolute;
+            width: 100%;
+            margin: auto;
+            left: 0;
+            top: 300px;
+            background-color: #f7ecffc2;
+            backdrop-filter: blur(7px);
+        }
+
+        section.dedicated-customers {
+            padding: 2rem 0 17rem;
         }
 
         .section-switchers li svg {
@@ -1351,8 +1367,7 @@ footer .headd img:last-child {
         }
 
         .history-report {
-            height: 100%;
-            padding: 20px;
+            height: 270px;
         }
 
         #vinInput button,
@@ -1390,6 +1405,13 @@ footer .headd img:last-child {
             line-height: 30px;
             text-align: center;
         }
+        section.find-car .col-md-4 {
+            width: 100%;
+        }
+
+        .history-report .row {
+            top: 250px;
+        }
     }
 
 
@@ -1423,6 +1445,8 @@ footer .headd img:last-child {
 
 
     @media (max-width: 360px) {
+
+       
         section.sample-record.twoo ul li {
     font-size: 14px;
 }
