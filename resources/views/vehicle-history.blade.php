@@ -106,7 +106,7 @@
                             </div>
 
                             <div class="col-md-4">
-                                <img src="{{ asset('front/images/nmvtis2.png') }}">
+                                <img src="{{ asset('front/images/logooooo.png') }}">
                             </div>
 
                         </div>
