@@ -162,10 +162,10 @@
                                                 <div class="beforeafterdrag">
                                                     <div data-type="data-type-image">
                                                         <div data-type="before">
-                                                            <img src="{{ asset('front/images/car1.png') }}">
+                                                            <img src="{{ asset('front/images/car1.webp') }}">
                                                         </div>
                                                         <div data-type="after">
-                                                            <img src="{{ asset('front/images/car2.png') }}">
+                                                            <img src="{{ asset('front/images/car2.webp') }}">
                                                         </div>
                                                     </div>
                                                 </div>

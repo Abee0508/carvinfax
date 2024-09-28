@@ -859,6 +859,7 @@
             overflow: visible;
             height: 310px;
             background-position: right;
+            top: 280px;
         }
 
 
@@ -867,7 +868,7 @@
             width: 100%;
             margin: auto;
             left: 0;
-            top: 300px;
+            top: -320px;
             background-color: #f7ecffc2;
             backdrop-filter: blur(7px);
         }
@@ -1432,6 +1433,14 @@ footer .headd img:last-child {
         .headd div {
             flex-direction: column;
             gap: 16px 0px;
+        }
+
+        .history-report .row {
+            top: -300px !important;
+        }
+
+        .history-report {
+            top: 250px;
         }
     }
 
