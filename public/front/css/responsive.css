@@ -748,6 +748,19 @@
 
     @media (max-width: 480px) {
 
+        .headd div:last-child {
+            flex-direction: row;
+            gap: 0 10px;
+        }
+        
+        .headd div:last-child img {
+            width: 100px;
+        }
+
+        .headd div:last-child img:first-child {
+            width: 70px;
+        }
+
         .banner-img img.abs {
             position: absolute;
             top: 11%;
@@ -761,7 +774,7 @@
 
         section.banner.vehicle-history .bg-color {
             height: 16rem !important;
-            padding-top: 3rem !important;!Im;!I;!;!I;!;
+            padding-top: 3rem !important;
         }
 
         section.banner .bg-color {
