@@ -1282,6 +1282,7 @@
             font-size: 20px !important;
             line-height: 32px !important;
         }
+        section.banner {overflow: hidden;}
 
     }
 
@@ -1348,6 +1349,12 @@
 
 
     @media (max-width: 375px) {
+
+        
+
+        .banner-content-bottom ul li img {
+            width: 330px;
+        }
 
         .trusted {
             margin: 4rem 0 0 !important;
