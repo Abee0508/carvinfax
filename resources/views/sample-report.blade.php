@@ -214,7 +214,7 @@
 
                                             <div class="col-md-6">
                                                 <div class="img">
-                                                    <img src="{{ asset('front/images/car-image2.png') }}">
+                                                    <img src="{{ asset('front/images/car-image2.svg') }}">
                                                 </div>
                                             </div>
 
