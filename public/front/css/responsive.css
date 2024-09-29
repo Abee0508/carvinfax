@@ -1536,4 +1536,8 @@ section.dedicated-customers {
 .banner-img img.abs {
     width: 116px;
 }
+
+section.what-we-offer .content h4 {
+    font-size: 20px;
+}
     }
