@@ -1515,4 +1515,17 @@ footer .bodyy ul {
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
 }
+
+section.dedicated-customers {
+    padding: 2rem 0 28rem;
+}
+
+.history-report {
+    top: 430px;
+}
+
+.history-report .row {
+    top: -460px !important;
+    height: 86vh !important;
+}
     }
