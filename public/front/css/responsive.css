@@ -1464,6 +1464,10 @@ footer .headd img:last-child {
         .history-report {
             top: 250px;
         }
+
+        .banner-img img.abs {
+            width: 130px;
+        }
     }
 
 
