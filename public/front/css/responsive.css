@@ -1528,4 +1528,8 @@ section.dedicated-customers {
     top: -460px !important;
     height: 86vh !important;
 }
+
+.banner-img img.abs {
+    width: 116px;
+}
     }
